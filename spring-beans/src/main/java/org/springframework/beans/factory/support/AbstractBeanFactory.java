@@ -109,6 +109,11 @@ import org.springframework.util.StringValueResolver;
  * @see AbstractAutowireCapableBeanFactory#createBean
  * @see DefaultListableBeanFactory#getBeanDefinition
  */
+/**
+ * 综合 FactoryBeanRegistrySupport 和 ConfigurableBeanFactory 功能
+ * @author monster
+ * @Date 2020/8/26 15:34
+ */
 public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport implements ConfigurableBeanFactory {
 
 	/** Parent bean factory, for bean inheritance support. */

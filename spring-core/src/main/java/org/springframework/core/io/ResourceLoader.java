@@ -39,6 +39,11 @@ import org.springframework.util.ResourceUtils;
  * @see org.springframework.context.ApplicationContext
  * @see org.springframework.context.ResourceLoaderAware
  */
+/**
+ * 定义资源加载器,主要用于根据给定的资源文件地址返回对应的Resource
+ * @author monster
+ * @Date 2020/8/26 15:58
+ */
 public interface ResourceLoader {
 
 	/** Pseudo URL prefix for loading from the class path: "classpath:". */

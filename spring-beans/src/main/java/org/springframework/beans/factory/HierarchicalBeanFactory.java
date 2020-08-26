@@ -31,6 +31,12 @@ import org.springframework.lang.Nullable;
  * @since 07.07.2003
  * @see org.springframework.beans.factory.config.ConfigurableBeanFactory#setParentBeanFactory
  */
+/**
+ * 在Beanfactory的基础上，添加对parentBeanFactory的支持
+ * TODO应该是父级
+ * @author monster
+ * @Date 2020/8/26 15:31
+ */
 public interface HierarchicalBeanFactory extends BeanFactory {
 
 	/**

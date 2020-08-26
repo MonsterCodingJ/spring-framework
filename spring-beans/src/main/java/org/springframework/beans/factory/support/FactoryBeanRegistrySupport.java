@@ -41,6 +41,11 @@ import org.springframework.lang.Nullable;
  * @author Juergen Hoeller
  * @since 2.5.1
  */
+/**
+ * 在DefaultSingletonBeanRegistry 添加了对FactoryBean的特殊处理功能
+ * @author monster
+ * @Date 2020/8/26 15:28
+ */
 public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanRegistry {
 
 	/** Cache of singleton objects created by FactoryBeans: FactoryBean name to object. */

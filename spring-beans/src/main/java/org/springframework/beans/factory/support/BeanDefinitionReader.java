@@ -37,6 +37,11 @@ import org.springframework.lang.Nullable;
  * @since 1.1
  * @see org.springframework.core.io.Resource
  */
+/**
+ * 定义了资源文件读取并转换为BeanDefinition的各个功能
+ * @author monster
+ * @Date 2020/8/26 15:59
+ */
 public interface BeanDefinitionReader {
 
 	/**

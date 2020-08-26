@@ -28,6 +28,11 @@ import org.xml.sax.InputSource;
  * @since 2.0
  * @see DefaultDocumentLoader
  */
+/**
+ * 定义了从资源文件 加载到转换为Document的功能
+ * @author monster
+ * @Date 2020/8/26 16:02
+ */
 public interface DocumentLoader {
 
 	/**

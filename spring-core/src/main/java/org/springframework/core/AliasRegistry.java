@@ -23,6 +23,14 @@ package org.springframework.core;
  * @author Juergen Hoeller
  * @since 2.5.2
  */
+
+/**
+ * 定义对alias的简单增删改查等操作
+ * TODO 初步预计是 beanfactory 加载bean时 别名的解析
+ * alias： 别名
+ * @author monster
+ * @Date 20200826
+ */
 public interface AliasRegistry {
 
 	/**

@@ -56,6 +56,11 @@ import org.springframework.util.StringUtils;
  * @author Erik Wiersma
  * @since 18.12.2003
  */
+/**
+ * 解析document文件，并使用BeanDefinitionParserDelegate对element进行解析
+ * @author monster
+ * @Date 2020/8/26 16:16
+ */
 public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocumentReader {
 
 	public static final String BEAN_ELEMENT = BeanDefinitionParserDelegate.BEAN_ELEMENT;

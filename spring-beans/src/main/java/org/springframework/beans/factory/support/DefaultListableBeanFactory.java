@@ -114,6 +114,11 @@ import org.springframework.util.StringUtils;
  * @see #resolveDependency
  */
 @SuppressWarnings("serial")
+/**
+ * 综合所有接口与父类的功能，主要是对Bean注册后的处理
+ * @author monster
+ * @Date 2020/8/26 15:51
+ */
 public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory
 		implements ConfigurableListableBeanFactory, BeanDefinitionRegistry, Serializable {
 

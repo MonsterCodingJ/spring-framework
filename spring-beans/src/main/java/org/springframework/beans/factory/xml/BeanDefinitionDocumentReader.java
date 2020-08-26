@@ -34,6 +34,11 @@ import org.springframework.beans.factory.BeanDefinitionStoreException;
  * @since 18.12.2003
  * @see XmlBeanDefinitionReader#setDocumentReaderClass
  */
+/**
+ * 定义读取Document并注册BeanDefinition功能
+ * @author monster
+ * @Date 2020/8/26 16:05
+ */
 public interface BeanDefinitionDocumentReader {
 
 	/**

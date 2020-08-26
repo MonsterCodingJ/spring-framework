@@ -75,6 +75,11 @@ import org.springframework.util.xml.XmlValidationModeDetector;
  * @see org.springframework.beans.factory.support.DefaultListableBeanFactory
  * @see org.springframework.context.support.GenericApplicationContext
  */
+/**
+ * 通过继承AbstractBeanDefinitionReader，使用当中的ResourceLoader将资源文件路径转换为对应的Resource文件
+ * @author monster
+ * @Date 2020/8/26 16:08
+ */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
 	/**
@@ -105,6 +110,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
 	private boolean namespaceAware = false;
 
+	// 定义读取Document并注册BeanDefinition功能
 	private Class<? extends BeanDefinitionDocumentReader> documentReaderClass =
 			DefaultBeanDefinitionDocumentReader.class;
 
@@ -117,6 +123,8 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 	@Nullable
 	private NamespaceHandlerResolver namespaceHandlerResolver;
 
+	// 定义了从资源文件 加载到转换为Document的功能
+	// 通过该loader 将Resource文件进行转换，将Resource文件转换为Document文件
 	private DocumentLoader documentLoader = new DefaultDocumentLoader();
 
 	@Nullable
