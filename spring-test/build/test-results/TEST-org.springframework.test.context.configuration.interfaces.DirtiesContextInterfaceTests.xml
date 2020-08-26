@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.configuration.interfaces.DirtiesContextInterfaceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:38:41" hostname="PC-20191023THJJ" time="0.011">
+  <properties/>
+  <testcase name="verifyDirtiesContextBehavior" classname="org.springframework.test.context.configuration.interfaces.DirtiesContextInterfaceTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

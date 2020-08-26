@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:45" hostname="PC-20191023THJJ" time="0.234">
+  <properties/>
+  <testcase name="echo[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@19963b5a]]" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.038"/>
+  <testcase name="echo[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@50c3459b]]" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.03"/>
+  <testcase name="echo[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@475d3af6]]" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.128"/>
+  <testcase name="echo[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41ba80ab]]" classname="org.springframework.http.server.reactive.EchoHandlerIntegrationTests" time="0.038"/>
+  <system-out><![CDATA[12:01:45.112 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:64493
+12:01:45.112 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+12:01:45.113 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[B@7784157b] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+12:01:45.126 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:45.127 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [[B] as "application/octet-stream"
+12:01:45.147 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:64501
+12:01:45.147 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+12:01:45.147 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[B@5a4a3886] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+12:01:45.158 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:45.161 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [[B] as "application/octet-stream"
+12:01:45.185 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:64503
+12:01:45.185 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+12:01:45.185 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[B@2048b5e1] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+12:01:45.189 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:45.189 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [[B] as "application/octet-stream"
+12:01:45.306 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:64526
+12:01:45.307 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+12:01:45.307 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[B@5988e5fb] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+12:01:45.325 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:45.325 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [[B] as "application/octet-stream"
+]]></system-out>
+  <system-err><![CDATA[八月 26, 2020 12:01:45 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:01:45 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:01:45 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-2"]
+八月 26, 2020 12:01:45 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:01:45 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-2-64503"]
+八月 26, 2020 12:01:45 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-2-64503"]
+八月 26, 2020 12:01:45 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:01:45 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-2-64503"]
+八月 26, 2020 12:01:45 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-2-64503"]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" tests="48" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:39" hostname="PC-20191023THJJ" time="0.109">
+  <properties/>
+  <testcase name="writeServerSentEvent[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeStringWithCustomCharset[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojo[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojoWithCustomEncoding[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="canWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.003"/>
+  <testcase name="writeMultiLineString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeServerSentEvent[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeStringWithCustomCharset[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojo[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojoWithCustomEncoding[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeMultiLineString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeServerSentEvent[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeStringWithCustomCharset[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojo[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojoWithCustomEncoding[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="canWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeMultiLineString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeServerSentEvent[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeStringWithCustomCharset[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojo[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojoWithCustomEncoding[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.003"/>
+  <testcase name="writeMultiLineString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeServerSentEvent[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeStringWithCustomCharset[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojo[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojoWithCustomEncoding[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeMultiLineString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeServerSentEvent[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeStringWithCustomCharset[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojo[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writePojoWithCustomEncoding[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeMultiLineString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <system-out><![CDATA[12:01:39.775 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.776 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.779 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo?', bar='bar?']]
+12:01:39.785 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.785 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.794 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.795 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.797 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo?', bar='bar?']]
+12:01:39.802 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.802 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.812 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.813 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.815 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo?', bar='bar?']]
+12:01:39.820 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.821 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.830 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.831 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.833 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo?', bar='bar?']]
+12:01:39.839 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.839 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.850 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.850 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.853 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo?', bar='bar?']]
+12:01:39.858 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.858 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.867 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.867 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.869 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo?', bar='bar?']]
+12:01:39.874 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.874 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

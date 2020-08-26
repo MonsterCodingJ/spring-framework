@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.RedirectViewTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:04:09" hostname="PC-20191023THJJ" time="0.002">
+  <properties/>
+  <testcase name="expandUriTemplateVariablesFromExchangeAttribute" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="expandUriTemplateVariablesFromModel" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="propagateQueryParams" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="contextRelativeQueryParam" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="contextRelative" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="customStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="defaultStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="noUrlSet" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="remoteHost" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <system-out><![CDATA[12:04:09.085 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [106cfa8c] View [RedirectView], model {}
+12:04:09.085 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [2b47d40c] View [RedirectView], model {foo=bar}
+12:04:09.085 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [7912eb50] View [RedirectView], model {}
+12:04:09.085 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [1e98243a] View [RedirectView], model {}
+12:04:09.085 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [b6a7451] View [RedirectView], model {}
+12:04:09.086 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [6b935c01] View [RedirectView], model {}
+12:04:09.086 [Test worker] DEBUG org.springframework.web.reactive.result.view.RedirectView - [5357248] View [RedirectView], model {}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

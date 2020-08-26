@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:27" hostname="PC-20191023THJJ" time="0.083">
+  <properties/>
+  <testcase name="requestMappingArgumentResolvers" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.026"/>
+  <testcase name="exceptionHandlerArgumentResolvers" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.015"/>
+  <testcase name="initBinderArgumentResolvers" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.014"/>
+  <testcase name="modelAttributeArgumentResolvers" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.014"/>
+  <testcase name="exceptionHandlerFromControllerAdvice" classname="org.springframework.web.reactive.result.method.annotation.ControllerMethodResolverTests" time="0.014"/>
+  <system-out><![CDATA[12:02:27.179 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+12:02:27.204 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+12:02:27.218 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+12:02:27.232 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+12:02:27.246 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 1 @ModelAttribute, 1 @InitBinder, 1 @ExceptionHandler
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

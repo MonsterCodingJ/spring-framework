@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.protobuf.ProtobufEncoderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:39" hostname="PC-20191023THJJ" time="0.017">
+  <properties/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.001"/>
+  <testcase name="encodeStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encodeStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encodeStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.011"/>
+  <testcase name="encodeStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encodeStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="encodeStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufEncoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

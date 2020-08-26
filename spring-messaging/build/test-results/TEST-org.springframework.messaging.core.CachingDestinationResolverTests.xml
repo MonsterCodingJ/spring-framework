@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.core.CachingDestinationResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:15" hostname="PC-20191023THJJ" time="0.617">
+  <properties/>
+  <testcase name="nullTargetThroughConstructor" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.001"/>
+  <testcase name="noTargetSet" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.0"/>
+  <testcase name="cachedDestination" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.616"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

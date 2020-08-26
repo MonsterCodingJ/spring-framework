@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.annotation.EnableTransactionManagementTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:26" hostname="PC-20191023THJJ" time="0.386">
+  <properties/>
+  <testcase name="transactionProxyIsCreated" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.184"/>
+  <testcase name="transactionProxyIsCreatedWithEnableOnSuperclass" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.019"/>
+  <testcase name="spr14322FindsOnInterfaceWithInterfaceProxy" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.027"/>
+  <testcase name="spr11915TransactionManagerAsManualSingleton" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.031"/>
+  <testcase name="proxyTypeAspectJCausesRegistrationOfAnnotationTransactionAspect" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.01"/>
+  <testcase name="txManagerIsResolvedOnInvocationOfTransactionalMethod" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.019"/>
+  <testcase name="transactionalEventListenerRegisteredProperly" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.017"/>
+  <testcase name="transactionProxyIsCreatedWithEnableOnExcludedSuperclass" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.03"/>
+  <testcase name="spr14322FindsOnInterfaceWithCglibProxy" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.025"/>
+  <testcase name="txManagerIsResolvedCorrectlyWhenMultipleManagersArePresent" classname="org.springframework.transaction.annotation.EnableTransactionManagementTests" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

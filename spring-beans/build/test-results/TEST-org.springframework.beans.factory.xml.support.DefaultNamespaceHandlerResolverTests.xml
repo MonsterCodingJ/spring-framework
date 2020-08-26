@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:18" hostname="PC-20191023THJJ" time="0.017">
+  <properties/>
+  <testcase name="testResolvedMappedHandler" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.014"/>
+  <testcase name="testResolvedMappedHandlerWithNoArgCtor" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.003"/>
+  <testcase name="testCtorWithNullClassLoaderArgumentAndNullMappingLocationArgument" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.0"/>
+  <testcase name="testResolveInvalidHandler" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.0"/>
+  <testcase name="testNonExistentHandlerClass" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.0"/>
+  <testcase name="testCtorWithNullClassLoaderArgument" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.0"/>
+  <testcase name="testCtorWithNonExistentMappingLocationArgument" classname="org.springframework.beans.factory.xml.support.DefaultNamespaceHandlerResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

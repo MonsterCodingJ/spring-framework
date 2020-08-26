@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.session.WebSessionIntegrationTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:54" hostname="PC-20191023THJJ" time="0.821">
+  <properties/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@10570a9b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.031"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@10570a9b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.031"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@10570a9b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.027"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@10570a9b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.02"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@10570a9b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.02"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6ba1edcf]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.019"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6ba1edcf]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.016"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6ba1edcf]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.015"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6ba1edcf]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.016"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6ba1edcf]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.015"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@50e74fc8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.144"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@50e74fc8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.086"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@50e74fc8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.088"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@50e74fc8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.085"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@50e74fc8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.089"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c26a4b8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.025"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c26a4b8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.022"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c26a4b8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.026"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c26a4b8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.02"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c26a4b8]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.026"/>
+  <system-out><![CDATA[12:01:54.963 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:54.986 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49344/
+12:01:54.987 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:54.988 [qtp474902063-1287] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6a606d10] HTTP GET "/"
+12:01:54.988 [qtp474902063-1287] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6a606d10] Completed 200 OK
+12:01:54.989 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:54.989 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49344/?invalidate
+12:01:54.989 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:54.991 [qtp474902063-1285] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1856af1c] HTTP GET "/?invalidate"
+12:01:54.992 [qtp474902063-1285] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1856af1c] Completed 200 OK
+12:01:54.992 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:54.994 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.018 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49352/
+12:01:55.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.020 [qtp81690074-1301] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [70f746a4] HTTP GET "/"
+12:01:55.020 [qtp81690074-1301] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [70f746a4] Completed 200 OK
+12:01:55.020 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49352/
+12:01:55.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.022 [qtp81690074-1296] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1c79b9c7] HTTP GET "/"
+12:01:55.023 [qtp81690074-1296] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1c79b9c7] Completed 200 OK
+12:01:55.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49352/
+12:01:55.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.023 [qtp81690074-1299] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [44771137] HTTP GET "/"
+12:01:55.024 [qtp81690074-1299] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [44771137] Completed 200 OK
+12:01:55.024 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.025 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.039 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49360/
+12:01:55.039 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.040 [qtp1988042466-1311] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [37829d0a] HTTP GET "/"
+12:01:55.041 [qtp1988042466-1311] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [37829d0a] Completed 200 OK
+12:01:55.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49360/?expire
+12:01:55.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.050 [qtp1988042466-1304] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5e3b0e98] HTTP GET "/?expire"
+12:01:55.051 [qtp1988042466-1304] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5e3b0e98] Completed 200 OK
+12:01:55.051 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.053 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.066 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49368/
+12:01:55.067 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.068 [qtp377115909-1320] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2bff111d] HTTP GET "/"
+12:01:55.068 [qtp377115909-1320] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2bff111d] Completed 200 OK
+12:01:55.068 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.068 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49368/
+12:01:55.068 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.070 [qtp377115909-1318] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [e742ac1] HTTP GET "/"
+12:01:55.070 [qtp377115909-1318] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [e742ac1] Completed 200 OK
+12:01:55.071 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.072 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.086 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49376/
+12:01:55.086 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.087 [qtp1873078973-1330] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4d4e0de0] HTTP GET "/"
+12:01:55.088 [qtp1873078973-1330] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4d4e0de0] Completed 200 OK
+12:01:55.088 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.088 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49376/?changeId
+12:01:55.088 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.090 [qtp1873078973-1325] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4a1d331b] HTTP GET "/?changeId"
+12:01:55.091 [qtp1873078973-1325] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4a1d331b] Completed 200 OK
+12:01:55.091 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.092 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.106 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49384/
+12:01:55.106 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.107 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [f14eb86e] HTTP GET "/"
+12:01:55.107 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [f14eb86e] Completed 200 OK
+12:01:55.108 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.108 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49384/?invalidate
+12:01:55.108 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.108 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [f14eb86e] HTTP GET "/?invalidate"
+12:01:55.108 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [f14eb86e] Completed 200 OK
+12:01:55.111 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.111 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.123 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49386/
+12:01:55.124 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.125 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6924e314] HTTP GET "/"
+12:01:55.125 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6924e314] Completed 200 OK
+12:01:55.125 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.125 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49386/
+12:01:55.125 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.126 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6924e314] HTTP GET "/"
+12:01:55.126 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6924e314] Completed 200 OK
+12:01:55.126 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.126 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49386/
+12:01:55.126 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.126 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6924e314] HTTP GET "/"
+12:01:55.127 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6924e314] Completed 200 OK
+12:01:55.127 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.127 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.140 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49388/
+12:01:55.140 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.141 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [eda176a2] HTTP GET "/"
+12:01:55.141 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [eda176a2] Completed 200 OK
+12:01:55.142 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.142 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49388/?expire
+12:01:55.142 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.142 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [eda176a2] HTTP GET "/?expire"
+12:01:55.142 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [eda176a2] Completed 200 OK
+12:01:55.143 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.143 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.155 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49390/
+12:01:55.156 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.157 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [15181d34] HTTP GET "/"
+12:01:55.157 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [15181d34] Completed 200 OK
+12:01:55.157 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.157 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49390/
+12:01:55.157 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.158 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [15181d34] HTTP GET "/"
+12:01:55.158 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [15181d34] Completed 200 OK
+12:01:55.158 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.158 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.171 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49392/
+12:01:55.171 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.172 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4e8e238f] HTTP GET "/"
+12:01:55.172 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4e8e238f] Completed 200 OK
+12:01:55.172 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.173 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49392/?changeId
+12:01:55.173 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.173 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4e8e238f] HTTP GET "/?changeId"
+12:01:55.173 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4e8e238f] Completed 200 OK
+12:01:55.173 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.174 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.195 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49394/
+12:01:55.196 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.199 [http-nio-auto-11-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3b58cb50] HTTP GET "/"
+12:01:55.199 [http-nio-auto-11-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3b58cb50] Completed 200 OK
+12:01:55.201 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.201 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49394/?invalidate
+12:01:55.202 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.203 [http-nio-auto-11-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5d6593dd] HTTP GET "/?invalidate"
+12:01:55.204 [http-nio-auto-11-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5d6593dd] Completed 200 OK
+12:01:55.204 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.317 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.337 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49403/
+12:01:55.337 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.341 [http-nio-auto-12-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1ad799b0] HTTP GET "/"
+12:01:55.341 [http-nio-auto-12-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1ad799b0] Completed 200 OK
+12:01:55.342 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.342 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49403/
+12:01:55.342 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.345 [http-nio-auto-12-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1254e6a9] HTTP GET "/"
+12:01:55.345 [http-nio-auto-12-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1254e6a9] Completed 200 OK
+12:01:55.346 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.346 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49403/
+12:01:55.346 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.346 [http-nio-auto-12-exec-5] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1f78fda6] HTTP GET "/"
+12:01:55.347 [http-nio-auto-12-exec-5] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1f78fda6] Completed 200 OK
+12:01:55.347 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.403 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.422 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49417/
+12:01:55.423 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.432 [http-nio-auto-13-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [16209f9a] HTTP GET "/"
+12:01:55.432 [http-nio-auto-13-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [16209f9a] Completed 200 OK
+12:01:55.432 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.433 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49417/?expire
+12:01:55.433 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.435 [http-nio-auto-13-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6edad1ec] HTTP GET "/?expire"
+12:01:55.435 [http-nio-auto-13-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6edad1ec] Completed 200 OK
+12:01:55.435 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.491 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49426/
+12:01:55.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.515 [http-nio-auto-14-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3a006a28] HTTP GET "/"
+12:01:55.515 [http-nio-auto-14-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3a006a28] Completed 200 OK
+12:01:55.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49426/
+12:01:55.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.518 [http-nio-auto-14-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4d77366d] HTTP GET "/"
+12:01:55.518 [http-nio-auto-14-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4d77366d] Completed 200 OK
+12:01:55.518 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.576 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.596 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49435/
+12:01:55.596 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.599 [http-nio-auto-15-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [395a84e] HTTP GET "/"
+12:01:55.599 [http-nio-auto-15-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [395a84e] Completed 200 OK
+12:01:55.601 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.601 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49435/?changeId
+12:01:55.601 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.603 [http-nio-auto-15-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1d3c00d5] HTTP GET "/?changeId"
+12:01:55.603 [http-nio-auto-15-exec-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1d3c00d5] Completed 200 OK
+12:01:55.610 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.665 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.681 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49458/
+12:01:55.682 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.683 [XNIO-11 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3d6d254b] HTTP GET "/"
+12:01:55.683 [XNIO-11 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3d6d254b] Completed 200 OK
+12:01:55.683 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.683 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49458/?invalidate
+12:01:55.683 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.688 [XNIO-11 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3d6d254b] HTTP GET "/?invalidate"
+12:01:55.688 [XNIO-11 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3d6d254b] Completed 200 OK
+12:01:55.688 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.690 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.707 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49474/
+12:01:55.707 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.708 [XNIO-12 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6336fe53] HTTP GET "/"
+12:01:55.708 [XNIO-12 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6336fe53] Completed 200 OK
+12:01:55.709 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.709 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49474/
+12:01:55.709 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.709 [XNIO-12 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6336fe53] HTTP GET "/"
+12:01:55.709 [XNIO-12 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6336fe53] Completed 200 OK
+12:01:55.709 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.709 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49474/
+12:01:55.710 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.710 [XNIO-12 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6336fe53] HTTP GET "/"
+12:01:55.710 [XNIO-12 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6336fe53] Completed 200 OK
+12:01:55.710 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.711 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.734 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49490/
+12:01:55.734 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.735 [XNIO-13 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2ee82058] HTTP GET "/"
+12:01:55.735 [XNIO-13 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2ee82058] Completed 200 OK
+12:01:55.736 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.736 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49490/?expire
+12:01:55.736 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.736 [XNIO-13 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2ee82058] HTTP GET "/?expire"
+12:01:55.736 [XNIO-13 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2ee82058] Completed 200 OK
+12:01:55.736 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.738 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.754 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49506/
+12:01:55.754 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.755 [XNIO-14 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [7f4c3dcb] HTTP GET "/"
+12:01:55.756 [XNIO-14 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [7f4c3dcb] Completed 200 OK
+12:01:55.756 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.756 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49506/
+12:01:55.756 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.756 [XNIO-14 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [7f4c3dcb] HTTP GET "/"
+12:01:55.756 [XNIO-14 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [7f4c3dcb] Completed 200 OK
+12:01:55.757 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.758 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:01:55.779 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49522/
+12:01:55.780 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.781 [XNIO-15 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [24b8d322] HTTP GET "/"
+12:01:55.781 [XNIO-15 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [24b8d322] Completed 200 OK
+12:01:55.781 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:55.781 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49522/?changeId
+12:01:55.781 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:55.782 [XNIO-15 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [24b8d322] HTTP GET "/?changeId"
+12:01:55.782 [XNIO-15 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [24b8d322] Completed 200 OK
+12:01:55.782 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+]]></system-out>
+  <system-err><![CDATA[Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/9.0.11
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-11"]
+Aug 26, 2020 12:01:55 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-11-49394"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-11-49394"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-11-49394"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-11-49394"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/9.0.11
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-12"]
+Aug 26, 2020 12:01:55 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-12-49403"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-12-49403"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-12-49403"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-12-49403"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/9.0.11
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-13"]
+Aug 26, 2020 12:01:55 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-13-49417"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-13-49417"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-13-49417"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-13-49417"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/9.0.11
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-14"]
+Aug 26, 2020 12:01:55 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-14-49426"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-14-49426"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-14-49426"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-14-49426"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/9.0.11
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-15"]
+Aug 26, 2020 12:01:55 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-15-49435"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-15-49435"]
+Aug 26, 2020 12:01:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-15-49435"]
+Aug 26, 2020 12:01:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-15-49435"]
+]]></system-err>
+</testsuite>

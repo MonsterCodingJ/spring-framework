@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:23" hostname="PC-20191023THJJ" time="0.003">
+  <properties/>
+  <testcase name="handleAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="handleNestedAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="handleNestedResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <testcase name="unresolvedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="responseCommitted" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <testcase name="handleResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <system-out><![CDATA[12:02:23.878 [Test worker] WARN  org.springframework.web.server.handler.ResponseStatusExceptionHandler - [5160cae1] Resolved [CustomException: null] for HTTP GET /
+12:02:23.879 [Test worker] WARN  org.springframework.web.server.handler.ResponseStatusExceptionHandler - [36fe17de] Resolved [Exception: org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests$CustomException] for HTTP GET /
+12:02:23.879 [Test worker] WARN  org.springframework.web.server.handler.ResponseStatusExceptionHandler - [619ee422] Resolved [Exception: org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
+12:02:23.881 [Test worker] WARN  org.springframework.web.server.handler.ResponseStatusExceptionHandler - [1e49486c] Resolved [ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

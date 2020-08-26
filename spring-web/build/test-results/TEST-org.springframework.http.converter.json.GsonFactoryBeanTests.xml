@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.json.GsonFactoryBeanTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:41" hostname="PC-20191023THJJ" time="0.078">
+  <properties/>
+  <testcase name="serializeNulls" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.07"/>
+  <testcase name="base64EncodeByteArrays" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.006"/>
+  <testcase name="base64EncodeByteArraysDisableHtmlEscaping" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <testcase name="customizeDateFormatNone" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.001"/>
+  <testcase name="prettyPrinting" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <testcase name="serializeNullsFalse" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <testcase name="disableHtmlEscaping" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <testcase name="prettyPrintingFalse" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <testcase name="customizeDateFormatPattern" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.001"/>
+  <testcase name="disableHtmlEscapingFalse" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <testcase name="base64EncodeByteArraysFalse" classname="org.springframework.http.converter.json.GsonFactoryBeanTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

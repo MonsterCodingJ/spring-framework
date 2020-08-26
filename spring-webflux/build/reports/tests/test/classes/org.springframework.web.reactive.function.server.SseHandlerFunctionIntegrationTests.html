@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.server.html">org.springframework.web.reactive.function.server</a> &gt; SseHandlerFunctionIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.101s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@482c6415]]</td>
+<td class="success">0.242s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@33df2e15]]</td>
+<td class="success">0.239s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@24e9aa11]]</td>
+<td class="success">0.339s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@84d3e2f]]</td>
+<td class="success">0.239s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@482c6415]]</td>
+<td class="success">0.239s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@33df2e15]]</td>
+<td class="success">0.239s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@24e9aa11]]</td>
+<td class="success">0.300s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@84d3e2f]]</td>
+<td class="success">0.240s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsString[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@482c6415]]</td>
+<td class="success">0.244s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsString[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@33df2e15]]</td>
+<td class="success">0.236s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsString[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@24e9aa11]]</td>
+<td class="success">0.304s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sseAsString[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@84d3e2f]]</td>
+<td class="success">0.240s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:02:20.581 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:20.581 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:20.581 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@57cf224a{/,null,AVAILABLE}
+12:02:20.582 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:20.582 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:20.582 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:20.582 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:20.583 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5312ef25{HTTP/1.1,[http/1.1]}{0.0.0.0:50382}
+12:02:20.584 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @20982ms
+12:02:20.584 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50382(0 millis).
+12:02:20.585 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [50ffe07a] HTTP GET http://localhost:50382/event
+12:02:20.586 [qtp67441610-815] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [7c77aa40] HTTP GET &quot;/event&quot;
+12:02:20.689 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [50ffe07a] Response 200 OK
+12:02:20.694 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded 'id:0'
+12:02:20.694 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded ':bar'
+12:02:20.695 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded 'data:foo'
+12:02:20.695 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded ''
+12:02:20.789 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded 'id:1'
+12:02:20.789 [parallel-5] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [7c77aa40] Completed 200 OK
+12:02:20.789 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded ':bar'
+12:02:20.790 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded 'data:foo'
+12:02:20.790 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [50ffe07a] Decoded ''
+12:02:20.790 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:20.790 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@57cf224a{/,null,UNAVAILABLE}
+12:02:20.791 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5312ef25{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:20.791 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:20.823 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:20.823 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:20.823 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@61ac9b59{/,null,AVAILABLE}
+12:02:20.823 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:20.823 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:20.823 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:20.823 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:20.825 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3e0155ed{HTTP/1.1,[http/1.1]}{0.0.0.0:50390}
+12:02:20.825 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @21222ms
+12:02:20.825 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50390(0 millis).
+12:02:20.826 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3dec3d56] HTTP GET http://localhost:50390/person
+12:02:20.827 [qtp976525764-824] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [34c8c287] HTTP GET &quot;/person&quot;
+12:02:20.929 [parallel-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [34c8c287] Encoding [Person{name='foo 0'}]
+12:02:20.929 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3dec3d56] Response 200 OK
+12:02:20.932 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [3dec3d56] Decoded 'data:{&quot;name&quot;:&quot;foo 0&quot;}'
+12:02:20.932 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [3dec3d56] Decoded ''
+12:02:20.932 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [3dec3d56] Decoded [Person{name='foo 0'}]
+12:02:21.028 [parallel-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [34c8c287] Encoding [Person{name='foo 1'}]
+12:02:21.029 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [3dec3d56] Decoded 'data:{&quot;name&quot;:&quot;foo 1&quot;}'
+12:02:21.029 [parallel-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [34c8c287] Completed 200 OK
+12:02:21.029 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [3dec3d56] Decoded ''
+12:02:21.029 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [3dec3d56] Decoded [Person{name='foo 1'}]
+12:02:21.029 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:21.029 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@61ac9b59{/,null,UNAVAILABLE}
+12:02:21.030 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3e0155ed{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:21.031 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:21.065 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:21.065 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:21.066 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@638eccd5{/,null,AVAILABLE}
+12:02:21.066 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:21.066 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:21.066 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:21.066 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:21.068 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7c1532ca{HTTP/1.1,[http/1.1]}{0.0.0.0:50398}
+12:02:21.068 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @21465ms
+12:02:21.068 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50398(0 millis).
+12:02:21.068 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1eb45ba4] HTTP GET http://localhost:50398/string
+12:02:21.070 [qtp771339286-838] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [d6aca90] HTTP GET &quot;/string&quot;
+12:02:21.172 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1eb45ba4] Response 200 OK
+12:02:21.173 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1eb45ba4] Decoded 'data:foo 0'
+12:02:21.173 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1eb45ba4] Decoded ''
+12:02:21.272 [parallel-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [d6aca90] Completed 200 OK
+12:02:21.272 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1eb45ba4] Decoded 'data:foo 1'
+12:02:21.272 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1eb45ba4] Decoded ''
+12:02:21.273 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:21.273 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@638eccd5{/,null,UNAVAILABLE}
+12:02:21.274 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7c1532ca{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:21.274 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:21.308 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:21.308 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:21.308 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50406(0 millis).
+12:02:21.309 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [58c61ea3] HTTP GET http://localhost:50406/event
+12:02:21.310 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [f77ebf39] HTTP GET &quot;/event&quot;
+12:02:21.413 [reactor-http-nio-3] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [58c61ea3] Response 200 OK
+12:02:21.413 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded 'id:0'
+12:02:21.413 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded ':bar'
+12:02:21.413 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded 'data:foo'
+12:02:21.413 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded ''
+12:02:21.513 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [f77ebf39] Completed 200 OK
+12:02:21.513 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded 'id:1'
+12:02:21.513 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded ':bar'
+12:02:21.514 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded 'data:foo'
+12:02:21.514 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [58c61ea3] Decoded ''
+12:02:21.514 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:21.514 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:21.547 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:21.547 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:21.547 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50408(0 millis).
+12:02:21.548 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [2913fe4d] HTTP GET http://localhost:50408/person
+12:02:21.549 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [a8ba7257] HTTP GET &quot;/person&quot;
+12:02:21.651 [reactor-http-nio-3] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [2913fe4d] Response 200 OK
+12:02:21.651 [reactor-http-nio-4] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [a8ba7257] Encoding [Person{name='foo 0'}]
+12:02:21.653 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [2913fe4d] Decoded 'data:{&quot;name&quot;:&quot;foo 0&quot;}'
+12:02:21.653 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [2913fe4d] Decoded ''
+12:02:21.653 [reactor-http-nio-3] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [2913fe4d] Decoded [Person{name='foo 0'}]
+12:02:21.751 [reactor-http-nio-4] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [a8ba7257] Encoding [Person{name='foo 1'}]
+12:02:21.751 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [a8ba7257] Completed 200 OK
+12:02:21.752 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [2913fe4d] Decoded 'data:{&quot;name&quot;:&quot;foo 1&quot;}'
+12:02:21.752 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [2913fe4d] Decoded ''
+12:02:21.752 [reactor-http-nio-3] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [2913fe4d] Decoded [Person{name='foo 1'}]
+12:02:21.752 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:21.752 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:21.783 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:21.783 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:21.783 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50410(0 millis).
+12:02:21.784 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7c451ac7] HTTP GET http://localhost:50410/string
+12:02:21.785 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [8582f302] HTTP GET &quot;/string&quot;
+12:02:21.888 [reactor-http-nio-3] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7c451ac7] Response 200 OK
+12:02:21.888 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [7c451ac7] Decoded 'data:foo 0'
+12:02:21.888 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [7c451ac7] Decoded ''
+12:02:21.987 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [8582f302] Completed 200 OK
+12:02:21.987 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [7c451ac7] Decoded 'data:foo 1'
+12:02:21.988 [reactor-http-nio-3] DEBUG org.springframework.core.codec.StringDecoder - [7c451ac7] Decoded ''
+12:02:21.988 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:21.988 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:22.020 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:22.020 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:22.028 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50412(0 millis).
+12:02:22.028 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [408af896] HTTP GET http://localhost:50412/event
+12:02:22.031 [http-nio-auto-21-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [63298b91] HTTP GET &quot;/event&quot;
+12:02:22.133 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [408af896] Response 200 OK
+12:02:22.134 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded 'id:0'
+12:02:22.134 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded ':bar'
+12:02:22.134 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded 'data:foo'
+12:02:22.134 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded ''
+12:02:22.232 [parallel-5] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [63298b91] Completed 200 OK
+12:02:22.233 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded 'id:1'
+12:02:22.233 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded ':bar'
+12:02:22.233 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded 'data:foo'
+12:02:22.233 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [408af896] Decoded ''
+12:02:22.233 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:22.329 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:22.359 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:22.359 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:22.367 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50421(0 millis).
+12:02:22.367 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7d06966b] HTTP GET http://localhost:50421/person
+12:02:22.370 [http-nio-auto-22-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [aac090b] HTTP GET &quot;/person&quot;
+12:02:22.472 [parallel-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [aac090b] Encoding [Person{name='foo 0'}]
+12:02:22.472 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7d06966b] Response 200 OK
+12:02:22.474 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [7d06966b] Decoded 'data:{&quot;name&quot;:&quot;foo 0&quot;}'
+12:02:22.474 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [7d06966b] Decoded ''
+12:02:22.474 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [7d06966b] Decoded [Person{name='foo 0'}]
+12:02:22.572 [parallel-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [aac090b] Encoding [Person{name='foo 1'}]
+12:02:22.572 [parallel-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [aac090b] Completed 200 OK
+12:02:22.572 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [7d06966b] Decoded 'data:{&quot;name&quot;:&quot;foo 1&quot;}'
+12:02:22.573 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [7d06966b] Decoded ''
+12:02:22.573 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [7d06966b] Decoded [Person{name='foo 1'}]
+12:02:22.574 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:22.628 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:22.663 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:22.663 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:22.671 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50430(0 millis).
+12:02:22.671 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [35f76282] HTTP GET http://localhost:50430/string
+12:02:22.674 [http-nio-auto-23-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6923c52a] HTTP GET &quot;/string&quot;
+12:02:22.776 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [35f76282] Response 200 OK
+12:02:22.776 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [35f76282] Decoded 'data:foo 0'
+12:02:22.777 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [35f76282] Decoded ''
+12:02:22.876 [parallel-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6923c52a] Completed 200 OK
+12:02:22.876 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [35f76282] Decoded 'data:foo 1'
+12:02:22.877 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [35f76282] Decoded ''
+12:02:22.877 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:22.932 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:22.963 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:22.963 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:22.966 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50453(0 millis).
+12:02:22.967 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [435ead59] HTTP GET http://localhost:50453/event
+12:02:22.968 [XNIO-21 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [250f174a] HTTP GET &quot;/event&quot;
+12:02:23.071 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [435ead59] Response 200 OK
+12:02:23.072 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded 'id:0'
+12:02:23.072 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded ':bar'
+12:02:23.072 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded 'data:foo'
+12:02:23.072 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded ''
+12:02:23.170 [XNIO-21 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [250f174a] Completed 200 OK
+12:02:23.170 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded 'id:1'
+12:02:23.170 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded ':bar'
+12:02:23.171 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded 'data:foo'
+12:02:23.171 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [435ead59] Decoded ''
+12:02:23.171 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:23.172 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+12:02:23.202 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:23.202 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:23.206 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50469(0 millis).
+12:02:23.206 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [17d998e0] HTTP GET http://localhost:50469/person
+12:02:23.208 [XNIO-22 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3b61f644] HTTP GET &quot;/person&quot;
+12:02:23.310 [XNIO-22 I/O-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [3b61f644] Encoding [Person{name='foo 0'}]
+12:02:23.310 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [17d998e0] Response 200 OK
+12:02:23.311 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [17d998e0] Decoded 'data:{&quot;name&quot;:&quot;foo 0&quot;}'
+12:02:23.311 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [17d998e0] Decoded ''
+12:02:23.311 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [17d998e0] Decoded [Person{name='foo 0'}]
+12:02:23.411 [XNIO-22 I/O-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [3b61f644] Encoding [Person{name='foo 1'}]
+12:02:23.411 [XNIO-22 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3b61f644] Completed 200 OK
+12:02:23.411 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [17d998e0] Decoded 'data:{&quot;name&quot;:&quot;foo 1&quot;}'
+12:02:23.411 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [17d998e0] Decoded ''
+12:02:23.412 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [17d998e0] Decoded [Person{name='foo 1'}]
+12:02:23.412 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:23.412 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+12:02:23.443 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:23.443 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:23.446 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50485(0 millis).
+12:02:23.447 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1e38bcce] HTTP GET http://localhost:50485/string
+12:02:23.448 [XNIO-23 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2ac49424] HTTP GET &quot;/string&quot;
+12:02:23.549 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1e38bcce] Response 200 OK
+12:02:23.550 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1e38bcce] Decoded 'data:foo 0'
+12:02:23.550 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1e38bcce] Decoded ''
+12:02:23.650 [XNIO-23 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [2ac49424] Completed 200 OK
+12:02:23.650 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1e38bcce] Decoded 'data:foo 1'
+12:02:23.651 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [1e38bcce] Decoded ''
+12:02:23.651 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:23.652 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-21&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-21-50412&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-21-50412&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-21-50412&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-21-50412&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-22&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-22-50421&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-22-50421&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-22-50421&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-22-50421&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-23&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-23-50430&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-23-50430&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-23-50430&quot;]
+八月 26, 2020 12:02:22 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-23-50430&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

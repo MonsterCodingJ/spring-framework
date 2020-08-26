@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.FactoryBeanLookupTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:17" hostname="PC-20191023THJJ" time="0.024">
+  <properties/>
+  <testcase name="factoryBeanLookupByNameDereferencing" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.006"/>
+  <testcase name="factoryBeanLookupByType" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.005"/>
+  <testcase name="factoryBeanObjectLookupByName" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.004"/>
+  <testcase name="factoryBeanObjectLookupByNameAndType" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.004"/>
+  <testcase name="factoryBeanLookupByTypeAndNameDereference" classname="org.springframework.beans.factory.FactoryBeanLookupTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

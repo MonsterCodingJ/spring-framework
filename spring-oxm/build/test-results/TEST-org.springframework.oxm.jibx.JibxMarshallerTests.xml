@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.oxm.jibx.JibxMarshallerTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:00:10" hostname="PC-20191023THJJ" time="0.196">
+  <properties/>
+  <testcase name="supports" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.015"/>
+  <testcase name="afterPropertiesSetNoContextPath" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.001"/>
+  <testcase name="encodingAndStandalone" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.009"/>
+  <testcase name="dtd" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.001"/>
+  <testcase name="indentation" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.02"/>
+  <testcase name="marshalStreamResultOutputStream" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.021"/>
+  <testcase name="marshalStaxResultEventWriter" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.023"/>
+  <testcase name="marshalEmptyDOMResult" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.016"/>
+  <testcase name="marshalStreamResultWriter" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.02"/>
+  <testcase name="marshalDOMResult" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.009"/>
+  <testcase name="marshalJaxp14StaxResultEventWriter" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.02"/>
+  <testcase name="marshalStaxResultStreamWriter" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.021"/>
+  <testcase name="marshalJaxp14StaxResultStreamWriter" classname="org.springframework.oxm.jibx.JibxMarshallerTests" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Warning:  org.apache.xerces.parsers.SAXParser: Feature 'http://javax.xml.XMLConstants/feature/secure-processing' is not recognized.
+Warning:  org.apache.xerces.parsers.SAXParser: Property 'http://javax.xml.XMLConstants/property/accessExternalDTD' is not recognized.
+Warning:  org.apache.xerces.parsers.SAXParser: Property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' is not recognized.
+Warning:  org.apache.xerces.parsers.SAXParser: Property 'http://javax.xml.XMLConstants/property/accessExternalDTD' is not recognized.
+Warning:  org.apache.xerces.parsers.SAXParser: Property 'http://www.oracle.com/xml/jaxp/properties/entityExpansionLimit' is not recognized.
+]]></system-err>
+</testsuite>

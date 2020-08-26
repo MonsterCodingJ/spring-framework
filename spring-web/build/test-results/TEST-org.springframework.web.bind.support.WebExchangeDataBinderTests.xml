@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.bind.support.WebExchangeDataBinderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:50" hostname="PC-20191023THJJ" time="0.073">
+  <properties/>
+  <testcase name="testFieldDefault" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.016"/>
+  <testcase name="testFieldPrefixCausesFieldReset" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.006"/>
+  <testcase name="testBindingWithNestedObjectCreation" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.004"/>
+  <testcase name="testFieldDefaultPreemptsFieldMarker" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.01"/>
+  <testcase name="testMultipart" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.014"/>
+  <testcase name="testFieldDefaultNonBoolean" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.007"/>
+  <testcase name="testBindingWithQueryParams" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.0"/>
+  <testcase name="testFieldPrefixCausesFieldResetWithIgnoreUnknownFields" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.007"/>
+  <testcase name="testWithCommaSeparatedStringArray" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.006"/>
+  <testcase name="testBindingWithNestedObjectCreationAndWrongOrder" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.003"/>
+  <system-out><![CDATA[12:01:50.503 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [!postProcessed, postProcessed] (content masked)
+12:01:50.513 [Test worker] DEBUG org.springframework.web.HttpLogging - [1491d87f] Read form fields [!postProcessed, postProcessed] (content masked)
+12:01:50.514 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [!postProcessed] (content masked)
+12:01:50.517 [Test worker] DEBUG org.springframework.web.HttpLogging - [62baebe2] Read form fields [!postProcessed] (content masked)
+12:01:50.518 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [_postProcessed, postProcessed] (content masked)
+12:01:50.521 [Test worker] DEBUG org.springframework.web.HttpLogging - [7622cf9d] Read form fields [_postProcessed, postProcessed] (content masked)
+12:01:50.521 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [_postProcessed] (content masked)
+12:01:50.524 [Test worker] DEBUG org.springframework.web.HttpLogging - [765e570c] Read form fields [_postProcessed] (content masked)
+12:01:50.525 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [spouse, spouse.name] (content masked)
+12:01:50.527 [Test worker] DEBUG org.springframework.web.HttpLogging - [3b6b1b0] Read form fields [spouse, spouse.name] (content masked)
+12:01:50.528 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [!postProcessed, _postProcessed, postProcessed] (content masked)
+12:01:50.531 [Test worker] DEBUG org.springframework.web.HttpLogging - [36e6bfdf] Read form fields [!postProcessed, _postProcessed, postProcessed] (content masked)
+12:01:50.531 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [!postProcessed, _postProcessed] (content masked)
+12:01:50.534 [Test worker] DEBUG org.springframework.web.HttpLogging - [56d8c0b9] Read form fields [!postProcessed, _postProcessed] (content masked)
+12:01:50.535 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [_postProcessed] (content masked)
+12:01:50.538 [Test worker] DEBUG org.springframework.web.HttpLogging - [523a1b59] Read form fields [_postProcessed] (content masked)
+12:01:50.539 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding parts [name, someList, someArray, part, somePartList] (content masked)
+12:01:50.546 [Test worker] DEBUG org.springframework.web.HttpLogging - [776191d5] Parsed parts [somePartList, part, name, someList, someArray] (content masked)
+12:01:50.552 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [!name, name] (content masked)
+12:01:50.555 [Test worker] DEBUG org.springframework.web.HttpLogging - [12a8d250] Read form fields [!name, name] (content masked)
+12:01:50.555 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [!name] (content masked)
+12:01:50.558 [Test worker] DEBUG org.springframework.web.HttpLogging - [29394b97] Read form fields [!name] (content masked)
+12:01:50.560 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [_postProcessed, postProcessed] (content masked)
+12:01:50.562 [Test worker] DEBUG org.springframework.web.HttpLogging - [5547a7b7] Read form fields [_postProcessed, postProcessed] (content masked)
+12:01:50.563 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [_postProcessed] (content masked)
+12:01:50.566 [Test worker] DEBUG org.springframework.web.HttpLogging - [21c38e9c] Read form fields [_postProcessed] (content masked)
+12:01:50.566 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [stringArray] (content masked)
+12:01:50.569 [Test worker] DEBUG org.springframework.web.HttpLogging - [39ee0ccb] Read form fields [stringArray] (content masked)
+12:01:50.569 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [stringArray] (content masked)
+12:01:50.572 [Test worker] DEBUG org.springframework.web.HttpLogging - [6281d02] Read form fields [stringArray] (content masked)
+12:01:50.573 [Test worker] DEBUG org.springframework.web.HttpLogging - Writing form fields [spouse.name, spouse] (content masked)
+12:01:50.575 [Test worker] DEBUG org.springframework.web.HttpLogging - [6e3a786f] Read form fields [spouse.name, spouse] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

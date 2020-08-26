@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:00:04" hostname="PC-20191023THJJ" time="0.087">
+  <properties/>
+  <testcase name="transactionRequiredExceptionOnRemove" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnJoinTransaction" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="proxyingWorksIfInfoReturnsNullEntityManagerInterface" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.024"/>
+  <testcase name="transactionRequiredExceptionOnRefresh" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnFlush" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnMerge" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="deferredQueryWithUpdate" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.023"/>
+  <testcase name="deferredQueryWithResultStream" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.005"/>
+  <testcase name="deferredStoredProcedureQueryWithNamedParameters" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.031"/>
+  <testcase name="deferredQueryWithResultList" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="deferredStoredProcedureQueryWithIndexedParameters" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
+  <testcase name="deferredQueryWithSingleResult" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnPersist" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

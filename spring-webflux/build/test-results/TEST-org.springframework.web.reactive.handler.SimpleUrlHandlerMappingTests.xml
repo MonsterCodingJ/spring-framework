@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:23" hostname="PC-20191023THJJ" time="0.172">
+  <properties/>
+  <testcase name="handlerMappingJavaConfig" classname="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" time="0.007"/>
+  <testcase name="handlerMappingXmlConfig" classname="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" time="0.165"/>
+  <system-out><![CDATA[12:02:23.711 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [5e58b233] Mapped to java.lang.Object@33f4c63d
+12:02:23.711 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [135d2f47] Mapped to java.lang.Object@6b558fa4
+12:02:23.711 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [708761d7] Mapped to java.lang.Object@6b558fa4
+12:02:23.711 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [655784d4] Mapped to java.lang.Object@33f4c63d
+12:02:23.711 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [1f0ab82e] Mapped to java.lang.Object@33f4c63d
+12:02:23.858 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/shortpattern/testing, /*/test.jpeg, /pathmatching??.html, /??path??matching.html, /welcome.html, /anotherTest*, /administrator/*/pathmatching.html, /confirmation.html, /outofpattern*yeah, /administrator/*/testlast*, /sho*, /reservation.html, /payment.html, /*pathmatchingTest.html, /*test*.jpeg, /administrator/another/bla.xml, /path??matching.html, /stillAnotherTestYeah, /show123.html, /bookseats.html, /administrator/testing/longer/*, /administrator/pathmatching.html] in 'mapping'
+12:02:23.872 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/shortpattern/testing, /*/test.jpeg, /pathmatching??.html, /??path??matching.html, /welcome.html, /anotherTest*, /administrator/*/pathmatching.html, /confirmation.html, /outofpattern*yeah, /administrator/*/testlast*, /sho*, /reservation.html, /payment.html, /*pathmatchingTest.html, /*test*.jpeg, /administrator/another/bla.xml, /path??matching.html, /stillAnotherTestYeah, /show123.html, /bookseats.html, /administrator/testing/longer/*, /administrator/pathmatching.html] in 'mapping'
+12:02:23.872 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [342807b7] Mapped to java.lang.Object@4e165454
+12:02:23.873 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [7b114555] Mapped to java.lang.Object@4e165454
+12:02:23.873 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [7338a171] Mapped to java.lang.Object@4e165454
+12:02:23.873 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [39eb617] Mapped to java.lang.Object@4e165454
+12:02:23.873 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [7aad17b1] Mapped to java.lang.Object@4e165454
+12:02:23.873 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [3af02b30] Mapped to java.lang.Object@4e165454
+12:02:23.873 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [7971fc72] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [3ea045b7] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [4844ac7d] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [5f2d39f9] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [32e74125] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [b00e8d3] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [ab31ea6] Mapped to java.lang.Object@4e165454
+12:02:23.874 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [34019c28] Mapped to java.lang.Object@4e165454
+12:02:23.875 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - [2a1fc38a] Mapped to java.lang.Object@4e165454
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

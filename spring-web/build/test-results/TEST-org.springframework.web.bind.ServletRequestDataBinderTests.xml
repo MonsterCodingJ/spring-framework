@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.bind.ServletRequestDataBinderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:50" hostname="PC-20191023THJJ" time="0.021">
+  <properties/>
+  <testcase name="testFieldDefault" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.018"/>
+  <testcase name="testMultipleValuesForParameter" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testNoParameters" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testFieldPrefixCausesFieldReset" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testBindingWithNestedObjectCreation" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.001"/>
+  <testcase name="testFieldDefaultPreemptsFieldMarker" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testFieldDefaultNonBoolean" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testFieldPrefixCausesFieldResetWithIgnoreUnknownFields" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testWithCommaSeparatedStringArray" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testNoPrefix" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.001"/>
+  <testcase name="testPrefix" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <testcase name="testBindingWithNestedObjectCreationAndWrongOrder" classname="org.springframework.web.bind.ServletRequestDataBinderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:04:07" hostname="PC-20191023THJJ" time="0.016">
+  <properties/>
+  <testcase name="invokeMethodWithNoArguments" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.002"/>
+  <testcase name="noMatchingResolver" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeAndHandle_withNotModified" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.006"/>
+  <testcase name="illegalArgumentException" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeAndHandle_VoidWithResponseStatus" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeAndHandle_withExchange" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.0"/>
+  <testcase name="invocationTargetExceptionIsUnwrapped" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeMethodWithResponseStatus" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.0"/>
+  <testcase name="invokeMethodWithNoValue" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeAndHandle_withExchangeAndMonoVoid" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.0"/>
+  <testcase name="invokeAndHandle_withResponseAndMonoVoid" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeAndHandle_withResponse" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.0"/>
+  <testcase name="resolverThrowsException" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.001"/>
+  <testcase name="invokeMethodWithValue" classname="org.springframework.web.reactive.result.method.InvocableHandlerMethodTests" time="0.0"/>
+  <system-out><![CDATA[12:04:07.354 [Test worker] DEBUG org.springframework.web.reactive.result.method.InvocableHandlerMethod - [67587e65] Could not resolve parameter [0] in public java.lang.String org.springframework.web.reactive.result.method.InvocableHandlerMethodTests$TestController.singleArg(java.lang.String): 415 UNSUPPORTED_MEDIA_TYPE "boo"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

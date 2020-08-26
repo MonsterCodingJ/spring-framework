@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:10" hostname="PC-20191023THJJ" time="0.006">
+  <properties/>
+  <testcase name="normal" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.005"/>
+  <testcase name="from" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.001"/>
+  <system-out><![CDATA[12:02:10.765 [Test worker] DEBUG org.springframework.core.codec.StringDecoder - Decoded 'baz'
+12:02:10.767 [Test worker] DEBUG org.springframework.core.codec.StringDecoder - Decoded 'baz'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

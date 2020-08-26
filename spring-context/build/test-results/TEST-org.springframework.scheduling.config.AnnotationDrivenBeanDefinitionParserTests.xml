@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:58:10" hostname="PC-20191023THJJ" time="0.037">
+  <properties/>
+  <testcase name="asyncPostProcessorExceptionHandlerReference" classname="org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests" time="0.008"/>
+  <testcase name="scheduledPostProcessorSchedulerReference" classname="org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests" time="0.007"/>
+  <testcase name="asyncPostProcessorRegistered" classname="org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests" time="0.007"/>
+  <testcase name="asyncPostProcessorExecutorReference" classname="org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests" time="0.008"/>
+  <testcase name="scheduledPostProcessorRegistered" classname="org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

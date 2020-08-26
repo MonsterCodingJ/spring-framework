@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:38:56" hostname="PC-20191023THJJ" time="0.003">
+  <properties/>
+  <testcase name="detectDefaultConfigurationClassesForNonAnnotatedInnerClass" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.001"/>
+  <testcase name="detectDefaultConfigurationClassesForPrivateAnnotatedInnerClass" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.0"/>
+  <testcase name="detectDefaultConfigurationClassesForMultipleAnnotatedInnerClasses" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.0"/>
+  <testcase name="detectDefaultConfigurationClassesForAnnotatedInnerClass" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.001"/>
+  <testcase name="detectDefaultConfigurationClassesForFinalAnnotatedInnerClass" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.001"/>
+  <testcase name="detectDefaultConfigurationClassesForNonStaticAnnotatedInnerClass" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.0"/>
+  <testcase name="configMustNotContainLocations" classname="org.springframework.test.context.support.AnnotationConfigContextLoaderTests" time="0.0"/>
+  <system-out><![CDATA[12:38:56.147 [Test worker] ERROR org.springframework.test.context.support.AnnotationConfigContextLoader - Test class [org.springframework.test.context.support.AnnotationConfigContextLoaderTests] has been configured with @ContextConfiguration's 'locations' (or 'value') attribute {config.xml}, but AnnotationConfigContextLoader does not support resource locations.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

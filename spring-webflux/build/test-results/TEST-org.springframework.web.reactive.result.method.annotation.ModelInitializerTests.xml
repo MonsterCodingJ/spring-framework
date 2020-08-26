@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:57" hostname="PC-20191023THJJ" time="0.012">
+  <properties/>
+  <testcase name="clearModelAttributeFromSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.008"/>
+  <testcase name="modelAttributeMethods" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="initBinderMethod" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="requiredSessionAttributeMissing" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="saveModelAttributeToSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="retrieveModelAttributeFromSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.0"/>
+  <system-out><![CDATA[12:02:57.259 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:57.268 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:57.268 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:57.269 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:57.270 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:57.271 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

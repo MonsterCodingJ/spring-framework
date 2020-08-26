@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.JsonPathAssertionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:39:22" hostname="PC-20191023THJJ" time="0.28">
+  <properties/>
+  <testcase name="hamcrestMatcherWithParameterizedJsonPath" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.JsonPathAssertionTests" time="0.056"/>
+  <testcase name="hamcrestMatcher" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.JsonPathAssertionTests" time="0.056"/>
+  <testcase name="exists" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.JsonPathAssertionTests" time="0.056"/>
+  <testcase name="doesNotExist" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.JsonPathAssertionTests" time="0.057"/>
+  <testcase name="equality" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.JsonPathAssertionTests" time="0.055"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

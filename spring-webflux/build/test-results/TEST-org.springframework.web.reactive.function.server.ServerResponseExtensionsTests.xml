@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:04:17" hostname="PC-20191023THJJ" time="0.003">
+  <properties/>
+  <testcase name="BodyBuilder#body with Publisher and reified type parameters" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.001"/>
+  <testcase name="BodyBuilder#xml" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.001"/>
+  <testcase name="BodyBuilder#html" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.0"/>
+  <testcase name="BodyBuilder#json" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.0"/>
+  <testcase name="BodyBuilder#bodyToServerSentEvents with Publisher and reified type parameters" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

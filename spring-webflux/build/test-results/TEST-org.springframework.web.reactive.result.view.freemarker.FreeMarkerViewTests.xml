@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:04:08" hostname="PC-20191023THJJ" time="0.011">
+  <properties/>
+  <testcase name="checkResourceExists" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.005"/>
+  <testcase name="render" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.005"/>
+  <testcase name="noFreeMarkerConfig" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.001"/>
+  <testcase name="noTemplateName" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.0"/>
+  <system-out><![CDATA[12:04:08.219 [Test worker] DEBUG org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+12:04:08.224 [Test worker] DEBUG org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+12:04:08.224 [Test worker] DEBUG org.springframework.web.reactive.result.view.freemarker.FreeMarkerView - [2e387d8e] View [FreeMarkerView], model {hello=hi FreeMarker}
+12:04:08.224 [Test worker] DEBUG org.springframework.web.reactive.result.view.freemarker.FreeMarkerView - [2e387d8e] Rendering [test.ftl]
+12:04:08.229 [Test worker] DEBUG org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+12:04:08.230 [Test worker] DEBUG org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

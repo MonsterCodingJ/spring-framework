@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.annotation.html">org.springframework.web.reactive.result.method.annotation</a> &gt; RequestMappingDataBindingIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.609s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">handleDateParam[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@53f25056]]</td>
+<td class="success">0.196s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleDateParam[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6a26d6d0]]</td>
+<td class="success">0.168s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleDateParam[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@150859ec]]</td>
+<td class="success">0.233s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleDateParam[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@9c4c8fc]]</td>
+<td class="success">0.209s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleForm[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@53f25056]]</td>
+<td class="success">0.183s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleForm[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6a26d6d0]]</td>
+<td class="success">0.171s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleForm[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@150859ec]]</td>
+<td class="success">0.273s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleForm[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@9c4c8fc]]</td>
+<td class="success">0.176s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:03:05.291 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:05.335 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:05.408 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:05.409 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:03:05.409 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@740f14a2{/,null,AVAILABLE}
+12:03:05.409 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:03:05.409 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:03:05.409 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:03:05.409 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:03:05.411 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3faa4233{HTTP/1.1,[http/1.1]}{0.0.0.0:52061}
+12:03:05.411 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @65809ms
+12:03:05.411 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 52061(0 millis).
+12:03:05.411 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52061/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd
+12:03:05.411 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:05.426 [qtp1602067321-2385] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [29cebe21] HTTP POST &quot;/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd&quot;
+12:03:05.426 [qtp1602067321-2385] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [29cebe21] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleDateParam(java.util.Date)
+12:03:05.429 [qtp1602067321-2385] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:05.430 [qtp1602067321-2385] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [29cebe21] 0..1 [java.lang.String]
+12:03:05.430 [qtp1602067321-2385] DEBUG org.springframework.core.codec.CharSequenceEncoder - [29cebe21] Writing 'Processed date!'
+12:03:05.438 [qtp1602067321-2385] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [29cebe21] Completed 200 OK
+12:03:05.438 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:05.438 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=utf-8&quot;
+12:03:05.438 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:03:05.438 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@740f14a2{/,null,UNAVAILABLE}
+12:03:05.439 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3faa4233{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:03:05.440 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:03:05.518 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:05.561 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:05.630 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:05.630 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:03:05.630 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@65d5d11{/,null,AVAILABLE}
+12:03:05.630 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:03:05.630 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:03:05.630 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:03:05.630 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:03:05.631 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3b00be80{HTTP/1.1,[http/1.1]}{0.0.0.0:52069}
+12:03:05.631 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @66030ms
+12:03:05.631 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 52069(0 millis).
+12:03:05.632 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52069/foos/1
+12:03:05.632 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:05.632 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name=[George], age=[5]}] as &quot;application/x-www-form-urlencoded&quot;
+12:03:05.646 [qtp2033759963-2396] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1da0f3c] HTTP POST &quot;/foos/1&quot;
+12:03:05.646 [qtp2033759963-2396] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [1da0f3c] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleForm(org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$Foo,org.springframework.validation.Errors)
+12:03:05.647 [qtp2033759963-2396] DEBUG org.springframework.http.codec.FormHttpMessageReader - [1da0f3c] Read form fields [name, age] (content masked)
+12:03:05.652 [qtp2033759963-2396] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:05.652 [qtp2033759963-2396] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [1da0f3c] 0..1 [java.lang.String]
+12:03:05.652 [qtp2033759963-2396] DEBUG org.springframework.core.codec.CharSequenceEncoder - [1da0f3c] Writing 'Processed form: Foo[id=1, name='George', age=5]'
+12:03:05.652 [qtp2033759963-2396] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1da0f3c] Completed 200 OK
+12:03:05.652 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:05.652 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=utf-8&quot;
+12:03:05.652 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:03:05.653 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@65d5d11{/,null,UNAVAILABLE}
+12:03:05.653 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3b00be80{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:03:05.654 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:03:05.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:05.766 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:05.833 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:05.834 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:03:05.834 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 52077(0 millis).
+12:03:05.834 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52077/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd
+12:03:05.834 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:05.847 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1089bb9d] HTTP POST &quot;/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd&quot;
+12:03:05.848 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [1089bb9d] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleDateParam(java.util.Date)
+12:03:05.849 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:05.849 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [1089bb9d] 0..1 [java.lang.String]
+12:03:05.849 [reactor-http-nio-2] DEBUG org.springframework.core.codec.CharSequenceEncoder - [1089bb9d] Writing 'Processed date!'
+12:03:05.849 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:05.849 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1089bb9d] Completed 200 OK
+12:03:05.849 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=UTF-8&quot;
+12:03:05.849 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:03:05.849 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:03:05.922 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:05.962 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:06.030 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:06.030 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:03:06.030 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 52079(0 millis).
+12:03:06.030 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52079/foos/1
+12:03:06.031 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:06.031 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name=[George], age=[5]}] as &quot;application/x-www-form-urlencoded&quot;
+12:03:06.044 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6ad65f64] HTTP POST &quot;/foos/1&quot;
+12:03:06.044 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [6ad65f64] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleForm(org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$Foo,org.springframework.validation.Errors)
+12:03:06.045 [reactor-http-nio-4] DEBUG org.springframework.http.codec.FormHttpMessageReader - [6ad65f64] Read form fields [name, age] (content masked)
+12:03:06.046 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:06.046 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [6ad65f64] 0..1 [java.lang.String]
+12:03:06.046 [reactor-http-nio-4] DEBUG org.springframework.core.codec.CharSequenceEncoder - [6ad65f64] Writing 'Processed form: Foo[id=1, name='George', age=5]'
+12:03:06.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:06.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=UTF-8&quot;
+12:03:06.047 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6ad65f64] Completed 200 OK
+12:03:06.047 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:03:06.047 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:03:06.119 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:06.159 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:06.229 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:06.230 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:03:06.238 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 52082(0 millis).
+12:03:06.238 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52082/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd
+12:03:06.238 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:06.252 [http-nio-auto-69-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3b8a7ea5] HTTP POST &quot;/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd&quot;
+12:03:06.252 [http-nio-auto-69-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [3b8a7ea5] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleDateParam(java.util.Date)
+12:03:06.254 [http-nio-auto-69-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:06.254 [http-nio-auto-69-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [3b8a7ea5] 0..1 [java.lang.String]
+12:03:06.254 [http-nio-auto-69-exec-1] DEBUG org.springframework.core.codec.CharSequenceEncoder - [3b8a7ea5] Writing 'Processed date!'
+12:03:06.254 [http-nio-auto-69-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3b8a7ea5] Completed 200 OK
+12:03:06.254 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:06.254 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=UTF-8&quot;
+12:03:06.254 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:03:06.308 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:03:06.406 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:06.451 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:06.525 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:06.525 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:03:06.532 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 52092(0 millis).
+12:03:06.532 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52092/foos/1
+12:03:06.532 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:06.532 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name=[George], age=[5]}] as &quot;application/x-www-form-urlencoded&quot;
+12:03:06.546 [http-nio-auto-70-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [447154ee] HTTP POST &quot;/foos/1&quot;
+12:03:06.546 [http-nio-auto-70-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [447154ee] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleForm(org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$Foo,org.springframework.validation.Errors)
+12:03:06.547 [http-nio-auto-70-exec-1] DEBUG org.springframework.http.codec.FormHttpMessageReader - [447154ee] Read form fields [name, age] (content masked)
+12:03:06.553 [http-nio-auto-70-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:06.553 [http-nio-auto-70-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [447154ee] 0..1 [java.lang.String]
+12:03:06.553 [http-nio-auto-70-exec-1] DEBUG org.springframework.core.codec.CharSequenceEncoder - [447154ee] Writing 'Processed form: Foo[id=1, name='George', age=5]'
+12:03:06.553 [http-nio-auto-70-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [447154ee] Completed 200 OK
+12:03:06.553 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:06.553 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=UTF-8&quot;
+12:03:06.554 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:03:06.608 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:03:06.707 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:06.750 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:06.821 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:06.821 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:03:06.825 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 52115(0 millis).
+12:03:06.825 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52115/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd
+12:03:06.825 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:06.838 [XNIO-68 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1c1aeafa] HTTP POST &quot;/date-param?date=2016-10-31&amp;date-pattern=YYYY-mm-dd&quot;
+12:03:06.838 [XNIO-68 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [1c1aeafa] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleDateParam(java.util.Date)
+12:03:06.839 [XNIO-68 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:06.839 [XNIO-68 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [1c1aeafa] 0..1 [java.lang.String]
+12:03:06.839 [XNIO-68 I/O-6] DEBUG org.springframework.core.codec.CharSequenceEncoder - [1c1aeafa] Writing 'Processed date!'
+12:03:06.844 [XNIO-68 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1c1aeafa] Completed 200 OK
+12:03:06.844 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:06.844 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=UTF-8&quot;
+12:03:06.844 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:03:06.845 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+12:03:06.916 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+12:03:06.956 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:03:07.024 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:03:07.024 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:03:07.027 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 52131(0 millis).
+12:03:07.027 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:52131/foos/1
+12:03:07.027 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+12:03:07.027 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name=[George], age=[5]}] as &quot;application/x-www-form-urlencoded&quot;
+12:03:07.040 [XNIO-69 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5d39f791] HTTP POST &quot;/foos/1&quot;
+12:03:07.040 [XNIO-69 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [5d39f791] Mapped to public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController.handleForm(org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$Foo,org.springframework.validation.Errors)
+12:03:07.041 [XNIO-69 I/O-6] DEBUG org.springframework.http.codec.FormHttpMessageReader - [5d39f791] Read form fields [name, age] (content masked)
+12:03:07.046 [XNIO-69 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+12:03:07.046 [XNIO-69 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [5d39f791] 0..1 [java.lang.String]
+12:03:07.046 [XNIO-69 I/O-6] DEBUG org.springframework.core.codec.CharSequenceEncoder - [5d39f791] Writing 'Processed form: Foo[id=1, name='George', age=5]'
+12:03:07.047 [XNIO-69 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5d39f791] Completed 200 OK
+12:03:07.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:03:07.047 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as &quot;text/plain;charset=UTF-8&quot;
+12:03:07.047 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:03:07.047 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>八月 26, 2020 12:03:06 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:03:06 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-69&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-69-52082&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-69-52082&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-69-52082&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-69-52082&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:03:06 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-70&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-70-52092&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-70-52092&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-70-52092&quot;]
+八月 26, 2020 12:03:06 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-70-52092&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

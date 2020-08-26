@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:53" hostname="PC-20191023THJJ" time="0.006">
+  <properties/>
+  <testcase name="preflightRequestWithEmptyHeaders" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestValidRequestAndConfig" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestCredentialsWithOriginWildcard" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithoutRequestMethod" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestTestWithOriginButWithoutOtherHeaders" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllowedHeaders" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestCredentials" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllowsAllHeaders" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithRequestAndMethodHeaderButNoConfig" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWrongAllowedMethod" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestMatchedAllowedMethod" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestCaseInsensitiveOriginMatch" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeaderAndAllowedOrigin" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestCredentials" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestCredentialsWithOriginWildcard" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeaderAndNullConfig" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestExposedHeaders" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithNullConfig" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllOriginsAllowed" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeader" classname="org.springframework.web.cors.reactive.DefaultCorsProcessorTests" time="0.001"/>
+  <system-out><![CDATA[12:01:53.742 [Test worker] DEBUG org.springframework.web.cors.reactive.DefaultCorsProcessor - Reject: 'http://domain2.com' origin is not allowed
+12:01:53.742 [Test worker] DEBUG org.springframework.web.cors.reactive.DefaultCorsProcessor - Reject: 'http://domain2.com' origin is not allowed
+12:01:53.743 [Test worker] DEBUG org.springframework.web.cors.reactive.DefaultCorsProcessor - Reject: 'http://domain2.com' origin is not allowed
+12:01:53.744 [Test worker] DEBUG org.springframework.web.cors.reactive.DefaultCorsProcessor - Reject: HTTP 'DELETE' is not allowed
+12:01:53.746 [Test worker] DEBUG org.springframework.web.cors.reactive.DefaultCorsProcessor - Reject: 'http://domain2.com' origin is not allowed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

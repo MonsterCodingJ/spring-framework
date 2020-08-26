@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.protobuf.ProtobufDecoderTests" tests="54" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:39" hostname="PC-20191023THJJ" time="0.146">
+  <properties/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.103"/>
+  <testcase name="decode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.025"/>
+  <testcase name="decodeMergedChunks[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeChunksToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithLargerDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeSplitChunks[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="extensionRegistryNull[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="exceedMaxSize[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeMergedChunks[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeChunksToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithLargerDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeSplitChunks[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="extensionRegistryNull[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="exceedMaxSize[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeMergedChunks[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeChunksToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithLargerDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeSplitChunks[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="extensionRegistryNull[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="exceedMaxSize[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeMergedChunks[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeChunksToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithLargerDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeSplitChunks[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="extensionRegistryNull[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="exceedMaxSize[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeMergedChunks[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeChunksToMono[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithLargerDataBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeSplitChunks[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="extensionRegistryNull[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="exceedMaxSize[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeToMono[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeMergedChunks[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.001"/>
+  <testcase name="decodeChunksToMono[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithLargerDataBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="decodeSplitChunks[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="extensionRegistryNull[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <testcase name="exceedMaxSize[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.protobuf.ProtobufDecoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

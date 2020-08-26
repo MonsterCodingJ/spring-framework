@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:39:21" hostname="PC-20191023THJJ" time="0.991">
+  <properties/>
+  <testcase name="longValueWithMissingResponseHeader" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <testcase name="dateValueWithIncorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.061"/>
+  <testcase name="exists" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.06"/>
+  <testcase name="stringWithMatcherAndMissingResponseHeader" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.055"/>
+  <testcase name="stringWithMatcherAndCorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.06"/>
+  <testcase name="multiStringHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.059"/>
+  <testcase name="longValueWithIncorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.057"/>
+  <testcase name="doesNotExist" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <testcase name="existsFail" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.057"/>
+  <testcase name="doesNotExistFail" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <testcase name="multiStringHeaderValueWithMatchers" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.059"/>
+  <testcase name="stringWithIncorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <testcase name="stringWithMissingResponseHeader" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.057"/>
+  <testcase name="dateValueWithCorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <testcase name="longValueWithCorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.057"/>
+  <testcase name="stringWithMatcherAndIncorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <testcase name="stringWithCorrectResponseHeaderValue" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HeaderAssertionTests" time="0.058"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

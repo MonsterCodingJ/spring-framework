@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandlerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandlerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.annotation.html">org.springframework.web.reactive.result.method.annotation</a> &gt; ResponseEntityResultHandlerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">16</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.112s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">defaultOrder</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">doesNotSupport</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMonoWithWildcardBodyType</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMonoWithWildcardBodyTypeAndNullBody</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleResponseEntityWithExistingResponseHeaders</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleResponseEntityWithNullBody</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnTypes</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueChangedETagAndLastModified</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueETagAndLastModified</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueEtag</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueEtagInvalidIfNoneMatch</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueLastModified</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpHeaders</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseEntityHeaders</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseEntityStatusCode</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">supports</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:03:57.704 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.704 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [6f87edd0] 0..1 [java.lang.String]
+12:03:57.704 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [6f87edd0] Writing 'body'
+12:03:57.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [6c050f12] 0..1 [java.lang.String]
+12:03:57.725 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [6c050f12] Writing 'abc'
+12:03:57.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [2f889266] 0..1 [java.lang.String]
+12:03:57.725 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [2f889266] Writing 'abc'
+12:03:57.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.725 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [5b9539e6] 0..1 [java.lang.String]
+12:03:57.725 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [5b9539e6] Writing 'abc'
+12:03:57.726 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.726 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [39023f0] 0..1 [java.lang.String]
+12:03:57.726 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [39023f0] Writing 'abc'
+12:03:57.726 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.726 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [4729d10f] 0..1 [java.lang.String]
+12:03:57.726 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [4729d10f] Writing 'abc'
+12:03:57.752 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+12:03:57.752 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [5cfc11d7] 0..1 [java.lang.String]
+12:03:57.752 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [5cfc11d7] Writing 'body'
+12:03:57.799 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - Using 'application/json' given [*/*] and supported [application/json]
+12:03:57.799 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler - [4487631a] 0..1 [java.lang.String]
+12:03:57.799 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [4487631a] Writing 'body'
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

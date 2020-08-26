@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.annotation.html">org.springframework.web.reactive.result.method.annotation</a> &gt; MessageWriterResultHandlerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.076s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">jacksonTypeOfListElement</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">jacksonTypeWithSubType</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">jacksonTypeWithSubTypeOfListElement</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">unsupportedReturnType</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">useDefaultCharset</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">useDefaultContentType</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">voidReturnType</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:02:56.760 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/octet-stream' given [*/*] and supported [application/octet-stream, */*, application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.760 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [4a8a9fcb] 0..1 [org.springframework.core.io.Resource]
+12:02:56.760 [Test worker] DEBUG org.springframework.http.codec.ResourceHttpMessageWriter - [4a8a9fcb] Resource associated with 'image/png'
+12:02:56.761 [Test worker] DEBUG org.springframework.core.codec.ResourceEncoder - [4a8a9fcb] Writing [class path resource [org/springframework/web/reactive/result/method/annotation/logo.png]]
+12:02:56.770 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json;charset=UTF-8' given [*/*] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.770 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [31717251] 0..1 [java.util.List&lt;org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Identifiable&gt;]
+12:02:56.770 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [31717251] Encoding [[org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean@3d6196f9, org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean@75d0983e]]
+12:02:56.819 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json;charset=UTF-8' given [*/*] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.819 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [1d9c69b0] 0..1 [java.util.List&lt;org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$ParentClass&gt;]
+12:02:56.819 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [1d9c69b0] Encoding [[org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Foo@356f036, org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Bar@2421c184]]
+12:02:56.857 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json;charset=UTF-8' given [*/*] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.857 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [18ebfba9] 0..1 [org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Identifiable]
+12:02:56.857 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [18ebfba9] Encoding [org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean@ebc3c37]
+12:02:56.864 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json' given [*/*] and supported [application/json]
+12:02:56.864 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [5ef38ac2] 0..1 [java.lang.String]
+12:02:56.864 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [5ef38ac2] Writing 'foo'
+12:02:56.872 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [6c488dc1] No match for [*/*], supported: []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

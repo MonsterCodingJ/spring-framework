@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:54" hostname="PC-20191023THJJ" time="0.009">
+  <properties/>
+  <testcase name="resolveDefaultValueFromSystemProperty" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveStringArrayArgument" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveDefaultValueFromRequest" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="resolveNameFromSystemPropertyThroughPlaceholder" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveNameFromSystemPropertyThroughExpression" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="dateConversion" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="instantConversion" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveStringArgument" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveDefaultValue" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="notFound" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.0"/>
+  <system-out><![CDATA[12:01:54.415 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@166257b0
+12:01:54.416 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6fe5204f
+12:01:54.417 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@111b54db
+12:01:54.418 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21e13ba7
+12:01:54.418 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c3a6fd9
+12:01:54.419 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b3df409
+12:01:54.420 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1e068fd0
+12:01:54.422 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6ea1ece9
+12:01:54.422 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@708e7b6c
+12:01:54.423 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7c2f01c5
+12:01:54.423 [Test worker] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@23b50492
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

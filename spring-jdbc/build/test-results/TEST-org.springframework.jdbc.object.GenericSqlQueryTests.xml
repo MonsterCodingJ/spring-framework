@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.object.GenericSqlQueryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:04" hostname="PC-20191023THJJ" time="0.067">
+  <properties/>
+  <testcase name="testCustomerQueryWithNamedParameters" classname="org.springframework.jdbc.object.GenericSqlQueryTests" time="0.038"/>
+  <testcase name="testCustomerQueryWithRowMapperInstance" classname="org.springframework.jdbc.object.GenericSqlQueryTests" time="0.015"/>
+  <testcase name="testCustomerQueryWithPlaceholders" classname="org.springframework.jdbc.object.GenericSqlQueryTests" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ContentAssertionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:39:20" hostname="PC-20191023THJJ" time="0.276">
+  <properties/>
+  <testcase name="testCharacterEncoding" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ContentAssertionTests" time="0.055"/>
+  <testcase name="testContentAsBytes" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ContentAssertionTests" time="0.057"/>
+  <testcase name="testContentType" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ContentAssertionTests" time="0.055"/>
+  <testcase name="testContentStringMatcher" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ContentAssertionTests" time="0.054"/>
+  <testcase name="testContentAsString" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.ContentAssertionTests" time="0.055"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

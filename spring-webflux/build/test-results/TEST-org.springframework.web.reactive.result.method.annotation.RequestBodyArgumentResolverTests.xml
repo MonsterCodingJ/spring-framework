@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:03:05" hostname="PC-20191023THJJ" time="0.031">
+  <properties/>
+  <testcase name="supports" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.004"/>
+  <testcase name="stringBody" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithoutContentType" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithSingle" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithString" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithCompletableFuture" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.003"/>
+  <testcase name="emptyBodyWithFlux" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.003"/>
+  <testcase name="emptyBodyWithMono" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithMaybe" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.003"/>
+  <testcase name="emptyBodyWithStringNotRequired" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithObservable" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.008"/>
+  <system-out><![CDATA[12:03:05.163 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [7451d20a] No Content-Type, using application/octet-stream
+12:03:05.163 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [7451d20a] 0..1 [java.lang.String]
+12:03:05.164 [Test worker] DEBUG org.springframework.core.codec.StringDecoder - [7451d20a] Decoded 'line1'
+12:03:05.165 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [75b9088a] No Content-Type, using application/octet-stream
+12:03:05.166 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [1d6c8432] No Content-Type, using application/octet-stream
+12:03:05.166 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [1d6c8432] 0..1 [java.lang.String]
+12:03:05.168 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [14d73833] No Content-Type, using application/octet-stream
+12:03:05.168 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [14d73833] 0..1 [java.lang.String]
+12:03:05.169 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5023d36f] No Content-Type, using application/octet-stream
+12:03:05.169 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5023d36f] 0..1 [java.lang.String]
+12:03:05.170 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5df140cb] No Content-Type, using application/octet-stream
+12:03:05.170 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5df140cb] 0..1 [java.lang.String]
+12:03:05.172 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [2bc547a1] No Content-Type, using application/octet-stream
+12:03:05.172 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [2bc547a1] 0..1 [java.lang.String]
+12:03:05.174 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [246d64c2] No Content-Type, using application/octet-stream
+12:03:05.174 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [246d64c2] 0..N [java.lang.String]
+12:03:05.175 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [2594c7a1] No Content-Type, using application/octet-stream
+12:03:05.175 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [2594c7a1] 0..N [java.lang.String]
+12:03:05.176 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [74c8a3e4] No Content-Type, using application/octet-stream
+12:03:05.176 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [74c8a3e4] 0..1 [java.lang.String]
+12:03:05.177 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [151b2d72] No Content-Type, using application/octet-stream
+12:03:05.178 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [151b2d72] 0..1 [java.lang.String]
+12:03:05.179 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5a9f0067] No Content-Type, using application/octet-stream
+12:03:05.179 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5a9f0067] 0..1 [java.lang.String]
+12:03:05.180 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [68d3321b] No Content-Type, using application/octet-stream
+12:03:05.180 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [68d3321b] 0..1 [java.lang.String]
+12:03:05.181 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [6d1520c] No Content-Type, using application/octet-stream
+12:03:05.181 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [6d1520c] 0..1 [java.lang.String]
+12:03:05.188 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [747ca031] No Content-Type, using application/octet-stream
+12:03:05.188 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [747ca031] 0..N [java.lang.String]
+12:03:05.189 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5eececba] No Content-Type, using application/octet-stream
+12:03:05.189 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [5eececba] 0..N [java.lang.String]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

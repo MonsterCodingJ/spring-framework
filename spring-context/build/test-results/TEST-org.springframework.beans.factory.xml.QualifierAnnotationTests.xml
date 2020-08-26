@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.QualifierAnnotationTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:30" hostname="PC-20191023THJJ" time="0.199">
+  <properties/>
+  <testcase name="testInterfaceWithOneQualifiedFactoryAndOneQualifiedBean" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.009"/>
+  <testcase name="testQualifiedByCustomValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.033"/>
+  <testcase name="testQualifiedByAlias" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.016"/>
+  <testcase name="testQualifiedByValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.013"/>
+  <testcase name="testQualifiedByAnnotation" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.015"/>
+  <testcase name="testNonQualifiedFieldFails" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.014"/>
+  <testcase name="testQualifiedByParameterName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.016"/>
+  <testcase name="testQualifiedByFieldName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.013"/>
+  <testcase name="testQualifiedByBeanName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.015"/>
+  <testcase name="testQualifiedByAttributesFailsWithoutCustomQualifierRegistered" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.015"/>
+  <testcase name="testQualifiedByAnnotationValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.013"/>
+  <testcase name="testQualifiedByParentValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.014"/>
+  <testcase name="testQualifiedByAttributesWithCustomQualifierRegistered" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.013"/>
+  <system-out><![CDATA[11:57:30.882 [Test worker] WARN  org.springframework.context.support.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testBean': Unsatisfied dependency expressed through field 'anonymous'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.beans.factory.xml.QualifierAnnotationTests$Person' available: expected single matching bean but found 6: larryBean,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$SpecialPerson#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#1,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#2,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#3
+11:57:30.940 [Test worker] WARN  org.springframework.context.support.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testBean': Unsatisfied dependency expressed through field 'moeSenior'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.beans.factory.xml.QualifierAnnotationTests$Person' available: expected single matching bean but found 6: larryBean,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$SpecialPerson#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#1,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#2,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

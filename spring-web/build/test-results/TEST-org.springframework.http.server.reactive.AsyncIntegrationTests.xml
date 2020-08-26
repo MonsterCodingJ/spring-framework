@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.AsyncIntegrationTests" tests="4" skipped="4" failures="0" errors="0" timestamp="2020-08-26T04:01:43" hostname="PC-20191023THJJ" time="0.0">
+  <properties/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@7964544c]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@1cceb2ff]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@63adc519]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@51426f90]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

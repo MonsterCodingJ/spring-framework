@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.config.YamlProcessorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:17" hostname="PC-20191023THJJ" time="0.009">
+  <properties/>
+  <testcase name="arrayConvertedToIndexedBeanReference" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.003"/>
+  <testcase name="integerKeyBehaves" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.0"/>
+  <testcase name="integerDeepKeyBehaves" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.001"/>
+  <testcase name="mapConvertedToIndexedBeanReference" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.0"/>
+  <testcase name="testBadDocumentStart" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.003"/>
+  <testcase name="testBadResource" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.001"/>
+  <testcase name="flattenedMapIsSameAsPropertiesButOrdered" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.001"/>
+  <testcase name="testStringResource" classname="org.springframework.beans.factory.config.YamlProcessorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

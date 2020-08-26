@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:12" hostname="PC-20191023THJJ" time="0.066">
+  <properties/>
+  <testcase name="testWithResponsiveMessageDelegateWhenReturnTypeIsAJMSMessageAndNoMessageConverterIsSupplied" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.003"/>
+  <testcase name="testWhenTheAdapterItselfIsTheDelegate" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
+  <testcase name="testWithResponsiveMessageDelegateWhenReturnTypeIsNotAJMSMessageAndNoMessageConverterIsSupplied" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.007"/>
+  <testcase name="testWithMessageContentsDelegateForObjectMessage" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.005"/>
+  <testcase name="testWithMessageContentsDelegateForBytesMessage" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.025"/>
+  <testcase name="testWithResponsiveMessageDelegate_DoesNotSendReturnTextMessageIfNoSessionSupplied" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.017"/>
+  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestinationAndNoReplyToDestination_SendsReturnTextMessageWhenSessionSupplied" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
+  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testWithMessageContentsDelegateForTextMessage" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testWithResponsiveMessageDelegateWithDefaultDestination_SendsReturnTextMessageWhenSessionSupplied" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.001"/>
+  <testcase name="testWithResponsiveMessageDelegateNoDefaultDestination_SendsReturnTextMessageWhenSessionSupplied_AndSendingThrowsJMSException" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testWithResponsiveMessageDelegateDoesNotSendReturnTextMessageWhenSessionSupplied_AndListenerMethodThrowsException" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testThatAnExceptionThrownFromTheHandlingMethodIsSimplySwallowedByDefault" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.005"/>
+  <testcase name="testWithMessageDelegate" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testThatTheDefaultMessageConverterisIndeedTheSimpleMessageConverter" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testRainyDayWithNoApplicableHandlingMethods" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testThatWhenNoDelegateIsSuppliedTheDelegateIsAssumedToBeTheMessageListenerAdapterItself" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testThatTheDefaultMessageHandlingMethodNameIsTheConstantDefault" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <testcase name="testWithMessageContentsDelegateForObjectMessageWithPlainObject" classname="org.springframework.jms.listener.adapter.MessageListenerAdapterTests" time="0.0"/>
+  <system-out><![CDATA[11:59:12.494 [Test worker] WARN  org.springframework.jms.listener.adapter.MessageListenerAdapter - Listener method returned result [I fancy a good cuppa right now]: not generating response message for it because of no JMS Session given
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Failed to invoke target method 'walnutsRock' with arguments {I fancy a good cuppa right now}; nested exception is java.lang.NoSuchMethodException: org.springframework.jms.listener.adapter.StubMessageListenerAdapter.walnutsRock(java.lang.String)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

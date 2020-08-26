@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit4.rules.BeforeAndAfterTransactionAnnotationSpringRuleTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:38:52" hostname="PC-20191023THJJ" time="0.01">
+  <properties/>
+  <testcase name="transactionalMethod1" classname="org.springframework.test.context.junit4.rules.BeforeAndAfterTransactionAnnotationSpringRuleTests" time="0.007"/>
+  <testcase name="transactionalMethod2" classname="org.springframework.test.context.junit4.rules.BeforeAndAfterTransactionAnnotationSpringRuleTests" time="0.002"/>
+  <testcase name="nonTransactionalMethod" classname="org.springframework.test.context.junit4.rules.BeforeAndAfterTransactionAnnotationSpringRuleTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

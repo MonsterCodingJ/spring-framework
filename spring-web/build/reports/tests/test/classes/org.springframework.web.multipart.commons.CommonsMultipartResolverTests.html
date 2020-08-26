@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.multipart.commons.CommonsMultipartResolverTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.multipart.commons.CommonsMultipartResolverTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.multipart.commons.html">org.springframework.web.multipart.commons</a> &gt; CommonsMultipartResolverTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.045s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">withApplicationContext</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withApplicationContextAndLazyResolution</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withServletContextAndFilter</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withServletContextAndFilterWithCustomBeanName</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:01:54.578 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+12:01:54.590 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Filter 'filter' configured for use
+12:01:54.590 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Using MultipartResolver 'myMultipartResolver' for MultipartFilter
+12:01:54.593 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.593 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.593 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+12:01:54.593 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Using MultipartResolver 'myMultipartResolver' for MultipartFilter
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+12:01:54.594 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+12:01:54.595 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.595 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.595 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+12:01:54.595 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+12:01:54.596 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+12:01:54.597 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+12:01:54.597 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Part 'field1',  filename 'field1.txt': transferred to [C:\transfer1]
+12:01:54.597 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Part 'field2',  filename 'field2.txt': transferred to [C:\transfer2]
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+12:01:54.610 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+12:01:54.611 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+12:01:54.611 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+12:01:54.612 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.612 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.612 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+12:01:54.612 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+12:01:54.612 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+12:01:54.613 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+12:01:54.613 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Closing Root WebApplicationContext, started on Wed Aug 26 12:01:54 CST 2020
+12:01:54.614 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.support.MultipartFilter - Filter 'filter' configured for use
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.support.MultipartFilter - Using MultipartResolver 'filterMultipartResolver' for MultipartFilter
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+12:01:54.615 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+12:01:54.616 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+12:01:54.616 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.616 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+12:01:54.616 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+12:01:54.616 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+12:01:54.617 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+12:01:54.618 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+12:01:54.618 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Part 'field1',  filename 'field1.txt': transferred to [C:\transfer1]
+12:01:54.618 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Part 'field2',  filename 'field2.txt': transferred to [C:\transfer2]
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+12:01:54.619 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+12:01:54.620 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+12:01:54.621 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+12:01:54.621 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.621 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+12:01:54.621 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+12:01:54.621 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+12:01:54.622 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+12:01:54.623 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+12:01:54.623 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Closing Root WebApplicationContext, started on Wed Aug 26 12:01:54 CST 2020
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:01:56</p>
+</div>
+</div>
+</body>
+</html>

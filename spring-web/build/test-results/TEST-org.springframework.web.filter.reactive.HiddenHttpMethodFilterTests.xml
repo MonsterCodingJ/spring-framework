@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:53" hostname="PC-20191023THJJ" time="0.024">
+  <properties/>
+  <testcase name="filterWithParameter" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.004"/>
+  <testcase name="filterWithNoParameter" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.003"/>
+  <testcase name="filterWithEmptyStringParameter" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.003"/>
+  <testcase name="filterWithInvalidMethodValue" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.004"/>
+  <testcase name="filterWithDifferentMethodParam" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.004"/>
+  <testcase name="filterWithParameterMethodNotAllowed" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.003"/>
+  <testcase name="filterWithHttpPut" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.003"/>
+  <system-out><![CDATA[12:01:53.921 [Test worker] DEBUG org.springframework.web.HttpLogging - [65015e13] Read form fields [_method] (content masked)
+12:01:53.924 [Test worker] DEBUG org.springframework.web.HttpLogging - [14c2b46d] Read form fields [] (content masked)
+12:01:53.927 [Test worker] DEBUG org.springframework.web.HttpLogging - [2987ec33] Read form fields [_method] (content masked)
+12:01:53.931 [Test worker] DEBUG org.springframework.web.HttpLogging - [36b49f3c] Read form fields [_method] (content masked)
+12:01:53.935 [Test worker] DEBUG org.springframework.web.HttpLogging - [1c926f0a] Read form fields [_foo] (content masked)
+12:01:53.938 [Test worker] DEBUG org.springframework.web.HttpLogging - [5b4edf60] Read form fields [_method] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

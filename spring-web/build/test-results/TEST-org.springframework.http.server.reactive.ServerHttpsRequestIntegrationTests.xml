@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:46" hostname="PC-20191023THJJ" time="0.125">
+  <properties/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpsServer@15873d05]]" classname="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" time="0.125"/>
+  <system-out><![CDATA[12:01:46.329 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST https://localhost:64738/foo?param=bar
+12:01:46.329 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+12:01:46.375 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

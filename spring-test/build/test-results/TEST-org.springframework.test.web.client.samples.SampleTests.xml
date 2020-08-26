@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.client.samples.SampleTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:39:02" hostname="PC-20191023THJJ" time="0.198">
+  <properties/>
+  <testcase name="performGetManyTimes" classname="org.springframework.test.web.client.samples.SampleTests" time="0.024"/>
+  <testcase name="expectNeverViolated" classname="org.springframework.test.web.client.samples.SampleTests" time="0.022"/>
+  <testcase name="verify" classname="org.springframework.test.web.client.samples.SampleTests" time="0.021"/>
+  <testcase name="performGetWithResponseBodyFromFile" classname="org.springframework.test.web.client.samples.SampleTests" time="0.022"/>
+  <testcase name="repeatedAccessToResponseViaResource" classname="org.springframework.test.web.client.samples.SampleTests" time="0.063"/>
+  <testcase name="expectNever" classname="org.springframework.test.web.client.samples.SampleTests" time="0.023"/>
+  <testcase name="performGet" classname="org.springframework.test.web.client.samples.SampleTests" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

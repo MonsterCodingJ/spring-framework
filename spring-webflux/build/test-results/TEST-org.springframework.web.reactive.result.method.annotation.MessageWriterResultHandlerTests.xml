@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:56" hostname="PC-20191023THJJ" time="0.114">
+  <properties/>
+  <testcase name="useDefaultContentType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.005"/>
+  <testcase name="jacksonTypeWithSubTypeOfListElement" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.005"/>
+  <testcase name="voidReturnType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.032"/>
+  <testcase name="jacksonTypeOfListElement" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.032"/>
+  <testcase name="jacksonTypeWithSubType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.001"/>
+  <testcase name="useDefaultCharset" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.0"/>
+  <testcase name="unsupportedReturnType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.001"/>
+  <system-out><![CDATA[12:02:56.760 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/octet-stream' given [*/*] and supported [application/octet-stream, */*, application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.760 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [4a8a9fcb] 0..1 [org.springframework.core.io.Resource]
+12:02:56.760 [Test worker] DEBUG org.springframework.http.codec.ResourceHttpMessageWriter - [4a8a9fcb] Resource associated with 'image/png'
+12:02:56.761 [Test worker] DEBUG org.springframework.core.codec.ResourceEncoder - [4a8a9fcb] Writing [class path resource [org/springframework/web/reactive/result/method/annotation/logo.png]]
+12:02:56.770 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json;charset=UTF-8' given [*/*] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.770 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [31717251] 0..1 [java.util.List<org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Identifiable>]
+12:02:56.770 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [31717251] Encoding [[org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean@3d6196f9, org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean@75d0983e]]
+12:02:56.819 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json;charset=UTF-8' given [*/*] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.819 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [1d9c69b0] 0..1 [java.util.List<org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$ParentClass>]
+12:02:56.819 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [1d9c69b0] Encoding [[org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Foo@356f036, org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Bar@2421c184]]
+12:02:56.857 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json;charset=UTF-8' given [*/*] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8]
+12:02:56.857 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [18ebfba9] 0..1 [org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Identifiable]
+12:02:56.857 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [18ebfba9] Encoding [org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean@ebc3c37]
+12:02:56.864 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - Using 'application/json' given [*/*] and supported [application/json]
+12:02:56.864 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [5ef38ac2] 0..1 [java.lang.String]
+12:02:56.864 [Test worker] DEBUG org.springframework.core.codec.CharSequenceEncoder - [5ef38ac2] Writing 'foo'
+12:02:56.872 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$1 - [6c488dc1] No match for [*/*], supported: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

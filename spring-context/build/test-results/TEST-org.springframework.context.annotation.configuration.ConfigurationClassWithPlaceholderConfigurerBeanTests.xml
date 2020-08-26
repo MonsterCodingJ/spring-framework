@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:42" hostname="PC-20191023THJJ" time="0.018">
+  <properties/>
+  <testcase name="valueFieldsAreProcessedWhenStaticPlaceholderConfigurerIsIntegrated" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.006"/>
+  <testcase name="valueFieldsAreProcessedWhenPlaceholderConfigurerIsSegregated" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.005"/>
+  <testcase name="valueFieldsAreNotProcessedWhenPlaceholderConfigurerIsIntegrated" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.004"/>
+  <testcase name="valueFieldsResolveToPlaceholderSpecifiedDefaultValuesWithPlaceholderConfigurer" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.002"/>
+  <testcase name="valueFieldsResolveToPlaceholderSpecifiedDefaultValuesWithoutPlaceholderConfigurer" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.support.CodecConfigurerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:39" hostname="PC-20191023THJJ" time="0.048">
+  <properties/>
+  <testcase name="defaultsOffWithCustomWriters" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.008"/>
+  <testcase name="defaultReaders" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.004"/>
+  <testcase name="defaultWriters" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.002"/>
+  <testcase name="jackson2DecoderOverride" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.004"/>
+  <testcase name="defaultsOffCustomReaders" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.013"/>
+  <testcase name="defaultAndCustomReaders" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.003"/>
+  <testcase name="protobufDecoderOverride" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.004"/>
+  <testcase name="defaultAndCustomWriters" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.003"/>
+  <testcase name="jackson2EncoderOverride" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.003"/>
+  <testcase name="protobufEncoderOverride" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

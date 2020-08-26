@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.function.MultipartIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.function.MultipartIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.html">org.springframework.web.reactive.function</a> &gt; MultipartIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.593s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">multipartData[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1bf4166c]]</td>
+<td class="success">0.080s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipartData[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@445ede74]]</td>
+<td class="success">0.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipartData[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@70d22435]]</td>
+<td class="success">0.116s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipartData[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3a499673]]</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">parts[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1bf4166c]]</td>
+<td class="success">0.058s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">parts[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@445ede74]]</td>
+<td class="success">0.048s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">parts[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@70d22435]]</td>
+<td class="success">0.123s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">parts[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3a499673]]</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:02:11.621 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:11.621 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:11.621 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@76caf334{/,null,AVAILABLE}
+12:02:11.621 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:11.622 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:11.622 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:11.622 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:11.624 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@a66e79{HTTP/1.1,[http/1.1]}{0.0.0.0:49777}
+12:02:11.624 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @12021ms
+12:02:11.624 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49777(0 millis).
+12:02:11.624 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [6cff6d5a] HTTP POST http://localhost:49777/multipartData
+12:02:11.626 [reactor-http-nio-4] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [6cff6d5a] Encoding parts [fooPart, barPart] (content masked)
+12:02:11.644 [qtp2142566207-243] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4d982a90] HTTP POST &quot;/multipartData&quot;
+12:02:11.652 [qtp2142566207-243] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageReader - [4d982a90] Parsed parts [barPart, fooPart] (content masked)
+12:02:11.656 [qtp2142566207-243] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4d982a90] Completed 200 OK
+12:02:11.657 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [6cff6d5a] Response 200 OK
+12:02:11.657 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:11.657 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@76caf334{/,null,UNAVAILABLE}
+12:02:11.658 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@a66e79{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:11.659 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:11.691 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:11.691 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:11.691 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7b6118a9{/,null,AVAILABLE}
+12:02:11.691 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:11.691 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:11.691 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:11.691 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:11.694 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7e90f5b3{HTTP/1.1,[http/1.1]}{0.0.0.0:49786}
+12:02:11.694 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @12091ms
+12:02:11.694 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49786(0 millis).
+12:02:11.694 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5e020fce] HTTP POST http://localhost:49786/parts
+12:02:11.695 [reactor-http-nio-2] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [5e020fce] Encoding parts [fooPart, barPart] (content masked)
+12:02:11.713 [qtp1594181101-253] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4574bfdf] HTTP POST &quot;/parts&quot;
+12:02:11.714 [qtp1594181101-253] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [4574bfdf] Parsed parts 'fooPart' (content masked)
+12:02:11.714 [qtp1594181101-253] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [4574bfdf] Parsed parts 'barPart' (content masked)
+12:02:11.714 [qtp1594181101-253] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [4574bfdf] Completed 200 OK
+12:02:11.715 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5e020fce] Response 200 OK
+12:02:11.715 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:11.715 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7b6118a9{/,null,UNAVAILABLE}
+12:02:11.716 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7e90f5b3{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:11.716 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:11.748 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:11.748 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:11.748 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49794(0 millis).
+12:02:11.749 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5e9b8fb0] HTTP POST http://localhost:49794/multipartData
+12:02:11.749 [reactor-http-nio-1] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [5e9b8fb0] Encoding parts [fooPart, barPart] (content masked)
+12:02:11.765 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [319b0fe3] HTTP POST &quot;/multipartData&quot;
+12:02:11.767 [reactor-http-nio-2] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageReader - [319b0fe3] Parsed parts [barPart, fooPart] (content masked)
+12:02:11.768 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [319b0fe3] Completed 200 OK
+12:02:11.768 [reactor-http-nio-1] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5e9b8fb0] Response 200 OK
+12:02:11.768 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:11.768 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:11.799 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:11.799 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:11.799 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49796(0 millis).
+12:02:11.799 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [27dfd4bd] HTTP POST http://localhost:49796/parts
+12:02:11.800 [reactor-http-nio-1] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [27dfd4bd] Encoding parts [fooPart, barPart] (content masked)
+12:02:11.814 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3340e084] HTTP POST &quot;/parts&quot;
+12:02:11.815 [reactor-http-nio-2] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [3340e084] Parsed parts 'fooPart' (content masked)
+12:02:11.815 [reactor-http-nio-2] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [3340e084] Parsed parts 'barPart' (content masked)
+12:02:11.815 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3340e084] Completed 200 OK
+12:02:11.816 [reactor-http-nio-1] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [27dfd4bd] Response 200 OK
+12:02:11.816 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:11.816 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:11.847 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:11.847 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:11.857 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49798(0 millis).
+12:02:11.857 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5b54f964] HTTP POST http://localhost:49798/multipartData
+12:02:11.858 [reactor-http-nio-6] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [5b54f964] Encoding parts [fooPart, barPart] (content masked)
+12:02:11.874 [http-nio-auto-4-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3c5b3ca6] HTTP POST &quot;/multipartData&quot;
+12:02:11.875 [http-nio-auto-4-exec-1] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageReader - [3c5b3ca6] Parsed parts [barPart, fooPart] (content masked)
+12:02:11.875 [http-nio-auto-4-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [3c5b3ca6] Completed 200 OK
+12:02:11.876 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5b54f964] Response 200 OK
+12:02:11.877 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:11.933 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:11.963 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:11.964 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:11.972 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49807(0 millis).
+12:02:11.973 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [57878483] HTTP POST http://localhost:49807/parts
+12:02:11.974 [reactor-http-nio-4] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [57878483] Encoding parts [fooPart, barPart] (content masked)
+12:02:11.989 [http-nio-auto-5-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [563f09f8] HTTP POST &quot;/parts&quot;
+12:02:11.990 [http-nio-auto-5-exec-1] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [563f09f8] Parsed parts 'fooPart' (content masked)
+12:02:11.990 [http-nio-auto-5-exec-1] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [563f09f8] Parsed parts 'barPart' (content masked)
+12:02:11.990 [http-nio-auto-5-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [563f09f8] Completed 200 OK
+12:02:12.001 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [57878483] Response 200 OK
+12:02:12.001 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:12.056 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:12.086 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:12.086 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:12.090 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49830(0 millis).
+12:02:12.091 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [6e89c6cb] HTTP POST http://localhost:49830/multipartData
+12:02:12.092 [reactor-http-nio-2] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [6e89c6cb] Encoding parts [fooPart, barPart] (content masked)
+12:02:12.113 [XNIO-4 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6e96618c] HTTP POST &quot;/multipartData&quot;
+12:02:12.115 [XNIO-4 I/O-6] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageReader - [6e96618c] Parsed parts [barPart, fooPart] (content masked)
+12:02:12.116 [XNIO-4 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [6e96618c] Completed 200 OK
+12:02:12.116 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [6e89c6cb] Response 200 OK
+12:02:12.116 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:12.118 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+12:02:12.148 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:12.148 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:12.153 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49847(0 millis).
+12:02:12.153 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3d41cf15] HTTP POST http://localhost:49847/parts
+12:02:12.154 [reactor-http-nio-6] DEBUG org.springframework.http.codec.multipart.MultipartHttpMessageWriter - [3d41cf15] Encoding parts [fooPart, barPart] (content masked)
+12:02:12.168 [XNIO-5 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5635a336] HTTP POST &quot;/parts&quot;
+12:02:12.169 [XNIO-5 I/O-6] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [5635a336] Parsed parts 'fooPart' (content masked)
+12:02:12.169 [XNIO-5 I/O-6] DEBUG org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader - [5635a336] Parsed parts 'barPart' (content masked)
+12:02:12.169 [XNIO-5 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5635a336] Completed 200 OK
+12:02:12.170 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3d41cf15] Response 200 OK
+12:02:12.170 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:12.171 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>八月 26, 2020 12:02:11 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:11 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-4&quot;]
+八月 26, 2020 12:02:11 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-4-49798&quot;]
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-4-49798&quot;]
+八月 26, 2020 12:02:11 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-4-49798&quot;]
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-4-49798&quot;]
+八月 26, 2020 12:02:11 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:11 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-5&quot;]
+八月 26, 2020 12:02:11 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:11 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-5-49807&quot;]
+八月 26, 2020 12:02:12 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-5-49807&quot;]
+八月 26, 2020 12:02:12 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:12 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-5-49807&quot;]
+八月 26, 2020 12:02:12 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-5-49807&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

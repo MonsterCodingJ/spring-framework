@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:17" hostname="PC-20191023THJJ" time="0.216">
+  <properties/>
+  <testcase name="resolveOptionalHeaderWithValue" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.159"/>
+  <testcase name="resolveNameFromSystemProperty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.049"/>
+  <testcase name="resolveArgumentNativeHeaderAmbiguity" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgumentNativeHeader" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveDefaultValueSystemProperty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="resolveOptionalHeaderAsEmpty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveArgumentDefaultValue" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="resolveArgumentNotFound" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveArgument" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="supportsParameter" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

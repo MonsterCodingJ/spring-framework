@@ -1,0 +1,86 @@
+IHΩ11:59:16.630 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=cca16327-62b3-a6f4-5fed-2ebc01b72c58, timestamp=1598414356627}]
+IKΩ11:59:17.145 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=106fc613-d257-e426-343d-387441bb0acd, timestamp=1598414357145}]
+IOΩ11:59:17.647 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=d2716d37-66fb-1683-7367-6bcc0884c1e7, timestamp=1598414357647}]
+ôßÎ11:59:18.618 [Test worker] ERROR org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry - No sessionId in  GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpDestination=/foo}]
+ôßÍ11:59:18.618 [Test worker] ERROR org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry - No subscriptionId in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSessionId=sess01, simpDestination=/foo}]
+ôßÏ11:59:18.618 [Test worker] ERROR org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry - No destination in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpSessionId=sess01}]
+´™Å11:59:20.759 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+´™ß11:59:20.971 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) is starting
+´™¢11:59:20.980 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:64177
+´™â11:59:20.980 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64177 Started
+´™£11:59:20.984 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) started
+´™ë11:59:20.984 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+´™¨11:59:21.800 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) is shutting down
+´™â11:59:23.273 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64177 Stopped
+´™∞11:59:23.284 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) uptime 2.531 seconds
+´™ß11:59:23.284 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) is shutdown
+≠¨Å11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠¨ß11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) is starting
+≠¨¢11:59:23.287 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62270
+≠¨â11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62270 Started
+≠¨£11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) started
+≠¨ë11:59:23.288 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠¨¨11:59:23.296 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) is shutting down
+≠¨â11:59:25.295 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62270 Stopped
+≠¨∞11:59:25.296 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) uptime 2.008 seconds
+≠¨ß11:59:25.296 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) is shutdown
+≠ÆÅ11:59:27.602 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠Æß11:59:27.602 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) is starting
+≠Æ¢11:59:27.603 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62976
+≠Æâ11:59:27.603 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62976 Started
+≠Æ£11:59:27.603 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) started
+≠Æë11:59:27.603 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠Æ¨11:59:29.935 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) is shutting down
+≠Æâ11:59:31.618 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62976 Stopped
+≠Æ∞11:59:31.618 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) uptime 4.016 seconds
+≠Æß11:59:31.618 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) is shutdown
+≠ØÅ11:59:31.619 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠Øß11:59:31.619 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) is starting
+≠Ø¢11:59:31.619 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62422
+≠Øâ11:59:31.619 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62422 Started
+≠Ø£11:59:31.620 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) started
+≠Øë11:59:31.620 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠Ø¨11:59:31.628 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) is shutting down
+≠Øâ11:59:33.628 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62422 Stopped
+≠Ø∞11:59:33.628 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) uptime 2.009 seconds
+≠Øß11:59:33.628 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) is shutdown
+≠∞Å11:59:35.934 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠∞ß11:59:35.934 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) is starting
+≠∞¢11:59:35.935 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:63755
+≠∞â11:59:35.935 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Started
+≠∞£11:59:35.935 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) started
+≠∞ë11:59:35.935 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠∞¨11:59:35.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) is shutting down
+≠∞â11:59:37.946 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Stopped
+≠∞∞11:59:37.946 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) uptime 2.012 seconds
+≠∞ß11:59:37.946 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) is shutdown
+≠∞Å11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠∞ß11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) is starting
+≠∞¢11:59:37.947 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:63755
+≠∞â11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Started
+≠∞£11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) started
+≠∞ë11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠∞¨11:59:45.152 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) is shutting down
+≠∞â11:59:46.947 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Stopped
+≠∞∞11:59:46.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) uptime 9.000 seconds
+≠∞ß11:59:46.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) is shutdown
+≠±Å11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠±ß11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) is starting
+≠±¢11:59:46.948 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62850
+≠±â11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62850 Started
+≠±£11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) started
+≠±ë11:59:46.949 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠±¨11:59:46.960 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) is shutting down
+≠±â11:59:48.960 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62850 Stopped
+≠±∞11:59:48.961 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) uptime 2.013 seconds
+≠±ß11:59:48.961 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) is shutdown
+≠≤Å11:59:51.166 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+≠≤ß11:59:51.166 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) is starting
+≠≤¢11:59:51.166 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:64705
+≠≤â11:59:51.166 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64705 Started
+≠≤£11:59:51.167 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) started
+≠≤ë11:59:51.167 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+≠≤¨11:59:53.485 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) is shutting down
+≠≤â11:59:55.175 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64705 Stopped
+≠≤∞11:59:55.175 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) uptime 4.009 seconds
+≠≤ß11:59:55.175 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) is shutdown

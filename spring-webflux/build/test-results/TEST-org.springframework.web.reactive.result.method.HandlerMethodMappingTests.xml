@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:04:07" hostname="PC-20191023THJJ" time="0.002">
+  <properties/>
+  <testcase name="directMatch" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="patternMatch" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="unregisterMapping" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.002"/>
+  <testcase name="registerMappingWithSameMethodAndTwoHandlerInstances" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="registerDuplicates" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="registerMapping" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="ambiguousMatch" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <system-out><![CDATA[12:04:07.334 [Test worker] DEBUG org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandlerMethodMapping - [491f1a5a] Mapped to public void org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandler.handlerMethod1()
+12:04:07.335 [Test worker] DEBUG org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandlerMethodMapping - [710956b1] Mapped to public void org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandler.handlerMethod1()
+12:04:07.335 [Test worker] DEBUG org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandlerMethodMapping - [40f55f00] Mapped to public void org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandler.handlerMethod1()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

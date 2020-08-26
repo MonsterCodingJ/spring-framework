@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.ReactorNettyTcpStompClientTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:20" hostname="PC-20191023THJJ" time="2.74">
+  <properties/>
+  <testcase name="publishSubscribe" classname="org.springframework.messaging.simp.stomp.ReactorNettyTcpStompClientTests" time="2.74"/>
+  <system-out><![CDATA[11:59:20.759 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:20.971 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) is starting
+11:59:20.980 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:64177
+11:59:20.980 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64177 Started
+11:59:20.984 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) started
+11:59:20.984 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:21.800 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) is shutting down
+11:59:23.273 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64177 Stopped
+11:59:23.284 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) uptime 2.531 seconds
+11:59:23.284 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:1) is shutdown
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

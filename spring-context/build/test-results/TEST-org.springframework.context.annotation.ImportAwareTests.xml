@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ImportAwareTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:43" hostname="PC-20191023THJJ" time="0.037">
+  <properties/>
+  <testcase name="directlyAnnotatedWithImport" classname="org.springframework.context.annotation.ImportAwareTests" time="0.016"/>
+  <testcase name="metadataFromImportsTwoThenOne" classname="org.springframework.context.annotation.ImportAwareTests" time="0.006"/>
+  <testcase name="indirectlyAnnotatedWithImport" classname="org.springframework.context.annotation.ImportAwareTests" time="0.004"/>
+  <testcase name="importRegistrar" classname="org.springframework.context.annotation.ImportAwareTests" time="0.004"/>
+  <testcase name="importRegistrarWithImport" classname="org.springframework.context.annotation.ImportAwareTests" time="0.005"/>
+  <testcase name="metadataFromImportsOneThenTwo" classname="org.springframework.context.annotation.ImportAwareTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

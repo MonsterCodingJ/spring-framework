@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.HttpMessageConverterExtractorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:51" hostname="PC-20191023THJJ" time="0.02">
+  <properties/>
+  <testcase name="normal" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.006"/>
+  <testcase name="cannotRead" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="converterThrowsHttpMessageNotReadableException" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.001"/>
+  <testcase name="converterThrowsIOException" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="notModified" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="emptyMessageBody" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="noContent" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="generics" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.011"/>
+  <testcase name="zeroContentLength" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="informational" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <system-out><![CDATA[12:01:51.537 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain"
+12:01:51.539 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain"
+12:01:51.551 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading to [java.util.List<java.lang.String>]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

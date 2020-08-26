@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:03" hostname="PC-20191023THJJ" time="2.758">
+  <properties/>
+  <testcase name="customPathMatchConfig" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="1.235"/>
+  <testcase name="requestMappingHandlerAdapter" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.205"/>
+  <testcase name="customMessageConverterConfig" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.038"/>
+  <testcase name="responseBodyResultHandler" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.118"/>
+  <testcase name="viewResolutionResultHandler" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.805"/>
+  <testcase name="requestMappingHandlerMapping" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.115"/>
+  <testcase name="resourceHandler" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.124"/>
+  <testcase name="responseEntityResultHandler" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.117"/>
+  <system-out><![CDATA[12:02:04.286 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:04.410 [Test worker] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.12.Final
+12:02:04.924 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:05.108 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:05.253 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:05.311 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.115 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.231 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.326 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/images/**] in 'resourceHandlerMapping'
+12:02:06.360 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.475 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

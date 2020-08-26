@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2SmileEncoderTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:39" hostname="PC-20191023THJJ" time="0.085">
+  <properties/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.018"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.003"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.004"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.003"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.003"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <system-out><![CDATA[12:01:39.110 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar']]]
+12:01:39.129 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+12:01:39.129 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.129 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.136 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar']]]
+12:01:39.140 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+12:01:39.141 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.141 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.147 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar']]]
+12:01:39.151 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+12:01:39.152 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.152 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.159 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar']]]
+12:01:39.164 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+12:01:39.164 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.164 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.172 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar']]]
+12:01:39.176 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+12:01:39.176 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.176 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+12:01:39.183 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar']]]
+12:01:39.187 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+12:01:39.188 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:01:39.188 [Test worker] DEBUG org.springframework.web.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

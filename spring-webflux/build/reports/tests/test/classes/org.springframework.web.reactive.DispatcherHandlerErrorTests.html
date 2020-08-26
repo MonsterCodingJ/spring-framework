@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.DispatcherHandlerErrorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.DispatcherHandlerErrorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.html">org.springframework.web.reactive</a> &gt; DispatcherHandlerErrorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.227s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">controllerReturnsMonoError</td>
+<td class="success">0.065s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controllerThrowsException</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">noHandler</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">requestBodyError</td>
+<td class="success">0.045s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyMessageConversionError</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">unknownReturnType</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">webExceptionHandler</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:02:06.547 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.562 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.573 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [1406e770] Mapped to public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.errorSignal()
+12:02:06.590 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8]
+12:02:06.591 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [1406e770] 0..1 [java.lang.String]
+12:02:06.607 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.619 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.621 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [654fd9d8] Mapped to public void org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.raiseException()
+12:02:06.626 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.639 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.651 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.666 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.668 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [69de4524] Mapped to public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.requestBody(org.reactivestreams.Publisher&lt;java.lang.String&gt;)
+12:02:06.675 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [69de4524] No Content-Type, using application/octet-stream
+12:02:06.675 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [69de4524] 0..N [java.lang.String]
+12:02:06.684 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8]
+12:02:06.684 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [69de4524] 0..1 [java.lang.String]
+12:02:06.696 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.710 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.712 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [794a5863] Mapped to public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.requestBody(org.reactivestreams.Publisher&lt;java.lang.String&gt;)
+12:02:06.712 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [794a5863] No Content-Type, using application/octet-stream
+12:02:06.712 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [794a5863] 0..N [java.lang.String]
+12:02:06.713 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [794a5863] No match for [application/json], supported: [text/plain;charset=UTF-8]
+12:02:06.720 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.738 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.740 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [419b4964] Mapped to public org.springframework.web.reactive.DispatcherHandlerErrorTests$Foo org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.unknownReturnType()
+12:02:06.748 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.762 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:39:11" hostname="PC-20191023THJJ" time="0.141">
+  <properties/>
+  <testcase name="cookiesAreManaged" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" time="0.077"/>
+  <testcase name="cookieManagerShared" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" time="0.059"/>
+  <testcase name="webAppContextSetupNull" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" time="0.0"/>
+  <testcase name="mockMvcSetupNull" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" time="0.0"/>
+  <testcase name="mockMvcSetupWithCustomWebClientDelegate" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" time="0.003"/>
+  <testcase name="mockMvcSetupWithDefaultWebClientDelegate" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebClientBuilderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

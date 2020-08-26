@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.resource.ResourceUrlProviderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:24" hostname="PC-20191023THJJ" time="0.053">
+  <properties/>
+  <testcase name="getStaticResourceUrl" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="getVerionedResourceUrl" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="getStaticResourceUrlRequestWithQueryOrHash" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="bestPatternMatch" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.002"/>
+  <testcase name="initializeOnce" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.048"/>
+  <system-out><![CDATA[12:02:24.017 [Test worker] DEBUG org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+12:02:24.031 [Test worker] DEBUG org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Registering annotated classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
+12:02:24.050 [Test worker] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'simpleUrlHandlerMapping'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:52" hostname="PC-20191023THJJ" time="0.036">
+  <properties/>
+  <testcase name="ioExceptionWithEmptyQueryString" classname="org.springframework.web.client.RestTemplateTests" time="0.013"/>
+  <testcase name="delete" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="uriTemplateWithTrailingSlash" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="postForLocationEntityContentType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForEntityNull" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="errorHandling" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="ioException" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getUnsupportedMediaType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="headForHeaders" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="patchForObjectNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="varArgsNullTemplateVariable" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="postForEntity" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForObjectWithCustomUriTemplateHandler" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="mapTemplateVariables" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="requestAvoidsDuplicateAcceptHeaderValues" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="varArgsTemplateVariables" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="putNull" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="postForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForLocation" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="put" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="postForLocationNoLocation" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForEntity" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="mapNullTemplateVariable" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="patchForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="requestInterceptorCanAddExistingHeaderValueWithoutBody" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="getForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="requestInterceptorCanAddExistingHeaderValueWithBody" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForLocationEntityCustomHeader" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="optionsForAllow" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForObjectNull" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="postForLocationNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="exchange" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="exchangeParameterizedType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <system-out><![CDATA[12:01:53.001 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/resource?
+12:01:53.001 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[foo/bar]
+12:01:53.002 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://example.com
+12:01:53.002 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.003 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/spring/
+12:01:53.004 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.004 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.004 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] as "text/plain"
+12:01:53.004 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.005 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.005 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.005 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.006 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com
+12:01:53.006 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+12:01:53.006 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/resource?access_token=123
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[foo/bar]
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/resource
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[foo/bar]
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP HEAD http://example.com
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP PATCH http://example.com
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.007 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.008 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/-foo
+12:01:53.008 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.008 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.009 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.009 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.009 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.009 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.010 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/hotels/1/pic/pics%2Flogo.png/size/150x150
+12:01:53.010 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[]
+12:01:53.010 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.011 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/hotels/42/bookings/42
+12:01:53.011 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/
+12:01:53.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/hotels/42/bookings/21
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://example.com
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.014 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.015 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://example.com
+12:01:53.015 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.015 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.015 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.015 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.015 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.016 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com
+12:01:53.016 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.016 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.016 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com/-foo
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP PATCH http://example.com
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.017 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.018 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.018 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[]
+12:01:53.018 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.018 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://example.com
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[]
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] as "text/plain"
+12:01:53.019 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.020 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.020 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.020 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.020 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP OPTIONS http://example.com
+12:01:53.020 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.021 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.022 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.022 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.022 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.HttpMessageConverter$MockitoMock$1800637767
+12:01:53.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain"
+12:01:53.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://example.com
+12:01:53.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain]
+12:01:53.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] with org.springframework.http.converter.GenericHttpMessageConverter$MockitoMock$1918733615
+12:01:53.023 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:01:53.024 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<java.lang.Integer>]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

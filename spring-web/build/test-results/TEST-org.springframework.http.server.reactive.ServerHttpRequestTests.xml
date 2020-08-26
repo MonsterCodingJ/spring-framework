@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:46" hostname="PC-20191023THJJ" time="0.007">
+  <properties/>
+  <testcase name="queryParams" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.002"/>
+  <testcase name="mutatePathWithEncodedQueryParams" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="mutateRequest" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.004"/>
+  <testcase name="mutateWithInvalidPath" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <testcase name="queryParamsWithEncodedValue" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsWithEmptyValue" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsWithNoValue" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsNone" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsWithMulitpleValues" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

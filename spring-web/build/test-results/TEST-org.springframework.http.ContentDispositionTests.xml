@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.ContentDispositionTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:40" hostname="PC-20191023THJJ" time="0.004">
+  <properties/>
+  <testcase name="parseType" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseDates" classname="org.springframework.http.ContentDispositionTests" time="0.003"/>
+  <testcase name="parseEmpty" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseNoType" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="decodeHeaderFieldParamInvalidCharset" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
+  <testcase name="parseAndIgnoreEmptyParts" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="encodeHeaderFieldParamInvalidCharset" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseFilenameWithSemicolon" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parse" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseInvalidParameter" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseUnquotedFilename" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseEncodedFilename" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="headerValue" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="headerValueWithEncodedFilename" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="encodeHeaderFieldParam" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="decodeHeaderFieldParam" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseInvalidDates" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

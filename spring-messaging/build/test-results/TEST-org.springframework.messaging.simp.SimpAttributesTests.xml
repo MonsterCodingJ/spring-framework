@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.SimpAttributesTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:20" hostname="PC-20191023THJJ" time="0.019">
+  <properties/>
+  <testcase name="sessionCompletedIsIdempotent" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.015"/>
+  <testcase name="removeDestructionCallback" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <testcase name="getAttribute" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <testcase name="registerDestructionCallbackAfterSessionCompleted" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <testcase name="getSessionMutexExplicit" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <testcase name="sessionCompleted" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <testcase name="getSessionMutex" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <testcase name="getAttributeNames" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.004"/>
+  <testcase name="registerDestructionCallback" classname="org.springframework.messaging.simp.SimpAttributesTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

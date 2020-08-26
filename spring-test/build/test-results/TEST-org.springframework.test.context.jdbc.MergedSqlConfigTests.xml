@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.jdbc.MergedSqlConfigTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:38:44" hostname="PC-20191023THJJ" time="0.001">
+  <properties/>
+  <testcase name="localConfigWithContinueOnError" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.0"/>
+  <testcase name="localConfigWithDefaults" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.0"/>
+  <testcase name="globalConfig" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.001"/>
+  <testcase name="globalConfigWithDefaults" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.0"/>
+  <testcase name="localConfigWithIgnoreFailedDrops" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.0"/>
+  <testcase name="localConfigWithCustomValues" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.0"/>
+  <testcase name="globalConfigWithLocalOverrides" classname="org.springframework.test.context.jdbc.MergedSqlConfigTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

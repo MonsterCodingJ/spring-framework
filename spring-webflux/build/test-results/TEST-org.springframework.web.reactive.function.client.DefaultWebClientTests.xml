@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.DefaultWebClientTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:10" hostname="PC-20191023THJJ" time="0.017">
+  <properties/>
+  <testcase name="defaultHeaderAndCookie" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.008"/>
+  <testcase name="defaultHeaderAndCookieOverrides" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="uriBuilder" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="defaultRequest" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="requestHeaderAndCookie" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="uriBuilderWithPathOverride" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="apply" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.0"/>
+  <testcase name="basic" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="attributes" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.0"/>
+  <testcase name="switchToErrorOnEmptyClientResponseMono" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.001"/>
+  <testcase name="bodyObjectPublisher" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.0"/>
+  <testcase name="mutateDoesCopy" classname="org.springframework.web.reactive.function.client.DefaultWebClientTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

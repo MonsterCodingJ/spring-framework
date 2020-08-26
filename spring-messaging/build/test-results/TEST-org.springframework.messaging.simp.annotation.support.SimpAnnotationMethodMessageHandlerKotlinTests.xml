@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:59:55" hostname="PC-20191023THJJ" time="0.731">
+  <properties/>
+  <testcase name="nonNullableHeaderWithoutHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.725"/>
+  <testcase name="nullableHeaderNotRequiredWithHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.001"/>
+  <testcase name="nonNullableHeaderNotRequiredWithoutHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.001"/>
+  <testcase name="nonNullableHeaderNotRequiredWithHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.001"/>
+  <testcase name="nonNullableHeaderWithHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.001"/>
+  <testcase name="nullableHeaderWithoutHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.0"/>
+  <testcase name="nullableHeaderNotRequiredWithoutHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.001"/>
+  <testcase name="nullableHeaderWithHeader" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerKotlinTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

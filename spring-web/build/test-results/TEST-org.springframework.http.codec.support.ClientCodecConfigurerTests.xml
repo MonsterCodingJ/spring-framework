@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.support.ClientCodecConfigurerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:39" hostname="PC-20191023THJJ" time="0.042">
+  <properties/>
+  <testcase name="defaultReaders" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.032"/>
+  <testcase name="defaultWriters" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.006"/>
+  <testcase name="jackson2EncoderOverride" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.004"/>
+  <system-out><![CDATA[12:01:39.911 [Test worker] DEBUG org.springframework.web.HttpLogging - Decoded 'line1'
+12:01:39.911 [Test worker] DEBUG org.springframework.web.HttpLogging - Decoded 'line2'
+12:01:39.911 [Test worker] DEBUG org.springframework.web.HttpLogging - Decoded 'line1'
+12:01:39.911 [Test worker] DEBUG org.springframework.web.HttpLogging - Decoded 'line2'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

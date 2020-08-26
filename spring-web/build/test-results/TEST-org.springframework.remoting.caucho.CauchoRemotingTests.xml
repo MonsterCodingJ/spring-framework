@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.remoting.caucho.CauchoRemotingTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:46" hostname="PC-20191023THJJ" time="2.399">
+  <properties/>
+  <testcase name="hessianProxyFactoryBeanWithAuthenticationAndAccessError" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="2.297"/>
+  <testcase name="simpleHessianServiceExporter" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.101"/>
+  <testcase name="hessianProxyFactoryBeanWithCustomProxyFactory" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.001"/>
+  <testcase name="hessianProxyFactoryBeanWithClassInsteadOfInterface" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.0"/>
+  <testcase name="hessianProxyFactoryBeanWithAccessError" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.HandlerResultHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:24" hostname="PC-20191023THJJ" time="0.002">
+  <properties/>
+  <testcase name="noConcreteMediaType" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.001"/>
+  <testcase name="usesContentTypeResolver" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.0"/>
+  <testcase name="charsetFromAcceptHeader" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.0"/>
+  <testcase name="producibleMediaTypesRequestAttribute" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.0"/>
+  <testcase name="sortsByQuality" classname="org.springframework.web.reactive.result.HandlerResultHandlerTests" time="0.0"/>
+  <system-out><![CDATA[12:02:24.237 [Test worker] DEBUG org.springframework.web.reactive.result.HandlerResultHandlerTests$TestResultHandler - Using 'application/octet-stream' given [*/*] and supported [*/*]
+12:02:24.237 [Test worker] DEBUG org.springframework.web.reactive.result.HandlerResultHandlerTests$TestResultHandler - Using 'image/gif' given [image/gif] and supported [image/jpeg, image/gif, image/png]
+12:02:24.238 [Test worker] DEBUG org.springframework.web.reactive.result.HandlerResultHandlerTests$TestResultHandler - Using 'text/plain;charset=ISO-8859-1' given [text/plain;charset=ISO-8859-1] and supported [text/plain;charset=UTF-8]
+12:02:24.238 [Test worker] DEBUG org.springframework.web.reactive.result.HandlerResultHandlerTests$TestResultHandler - Using 'image/gif' given [*/*] and supported [image/gif]
+12:02:24.238 [Test worker] DEBUG org.springframework.web.reactive.result.HandlerResultHandlerTests$TestResultHandler - Using 'application/json;charset=UTF-8' given [application/json, text/plain;q=0.5] and supported [text/plain, application/json;charset=UTF-8]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

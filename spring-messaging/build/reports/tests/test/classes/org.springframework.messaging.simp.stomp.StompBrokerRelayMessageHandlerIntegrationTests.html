@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.messaging.simp.stomp.html">org.springframework.messaging.simp.stomp</a> &gt; StompBrokerRelayMessageHandlerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">31.890s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">brokerAvailabilityEventWhenStopped</td>
+<td class="success">4.316s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">brokerBecomingUnavailableTriggersErrorFrame</td>
+<td class="success">4.218s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">disconnectWithReceipt</td>
+<td class="success">4.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">messageDeliveryExceptionIfSystemSessionForwardFails</td>
+<td class="success">4.317s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">publishSubscribe</td>
+<td class="success">4.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">relayReconnectsIfBrokerComesBackUp</td>
+<td class="success">11.013s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) is starting
+11:59:23.287 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62270
+11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62270 Started
+11:59:23.287 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) started
+11:59:23.288 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:23.296 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) is shutting down
+11:59:25.295 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62270 Stopped
+11:59:25.296 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) uptime 2.008 seconds
+11:59:25.296 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:2) is shutdown
+11:59:27.602 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:27.602 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) is starting
+11:59:27.603 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62976
+11:59:27.603 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62976 Started
+11:59:27.603 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) started
+11:59:27.603 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:29.935 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) is shutting down
+11:59:31.618 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62976 Stopped
+11:59:31.618 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) uptime 4.016 seconds
+11:59:31.618 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:3) is shutdown
+11:59:31.619 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:31.619 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) is starting
+11:59:31.619 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62422
+11:59:31.619 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62422 Started
+11:59:31.620 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) started
+11:59:31.620 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:31.628 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) is shutting down
+11:59:33.628 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62422 Stopped
+11:59:33.628 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) uptime 2.009 seconds
+11:59:33.628 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:4) is shutdown
+11:59:35.934 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:35.934 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) is starting
+11:59:35.935 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:63755
+11:59:35.935 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Started
+11:59:35.935 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) started
+11:59:35.935 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:35.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) is shutting down
+11:59:37.946 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Stopped
+11:59:37.946 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) uptime 2.012 seconds
+11:59:37.946 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:5) is shutdown
+11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) is starting
+11:59:37.947 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:63755
+11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Started
+11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) started
+11:59:37.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:45.152 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) is shutting down
+11:59:46.947 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:63755 Stopped
+11:59:46.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) uptime 9.000 seconds
+11:59:46.947 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:6) is shutdown
+11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) is starting
+11:59:46.948 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:62850
+11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62850 Started
+11:59:46.948 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) started
+11:59:46.949 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:46.960 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) is shutting down
+11:59:48.960 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:62850 Stopped
+11:59:48.961 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) uptime 2.013 seconds
+11:59:48.961 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:7) is shutdown
+11:59:51.166 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+11:59:51.166 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) is starting
+11:59:51.166 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://ieonline.microsoft.com:64705
+11:59:51.166 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64705 Started
+11:59:51.167 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) started
+11:59:51.167 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+11:59:53.485 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) is shutting down
+11:59:55.175 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://ieonline.microsoft.com:64705 Stopped
+11:59:55.175 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) uptime 4.009 seconds
+11:59:55.175 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PC-20191023THJJ-63780-1598414360789-0:8) is shutdown
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 11:59:56</p>
+</div>
+</div>
+</body>
+</html>

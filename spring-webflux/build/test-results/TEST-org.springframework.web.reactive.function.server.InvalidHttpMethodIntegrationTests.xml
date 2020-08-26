@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.InvalidHttpMethodIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:14" hostname="PC-20191023THJJ" time="0.272">
+  <properties/>
+  <testcase name="invalidHttpMethod[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@24ca650d]]" classname="org.springframework.web.reactive.function.server.InvalidHttpMethodIntegrationTests" time="0.084"/>
+  <testcase name="invalidHttpMethod[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@12124b7a]]" classname="org.springframework.web.reactive.function.server.InvalidHttpMethodIntegrationTests" time="0.038"/>
+  <testcase name="invalidHttpMethod[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@10f08757]]" classname="org.springframework.web.reactive.function.server.InvalidHttpMethodIntegrationTests" time="0.107"/>
+  <testcase name="invalidHttpMethod[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@134604a6]]" classname="org.springframework.web.reactive.function.server.InvalidHttpMethodIntegrationTests" time="0.043"/>
+  <system-out><![CDATA[12:02:14.710 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.711 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:14.711 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@18025aa3{/,null,AVAILABLE}
+12:02:14.711 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:14.711 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:14.711 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:14.711 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:14.713 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@71beadf6{HTTP/1.1,[http/1.1]}{0.0.0.0:49956}
+12:02:14.713 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @15111ms
+12:02:14.713 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49956(0 millis).
+12:02:14.750 [qtp1021127450-410] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [304ce067] HTTP null "/"
+12:02:14.750 [qtp1021127450-410] DEBUG org.springframework.core.codec.CharSequenceEncoder - [304ce067] Writing 'BAR'
+12:02:14.750 [qtp1021127450-410] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [304ce067] Completed 200 OK
+12:02:14.759 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:14.759 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@18025aa3{/,null,UNAVAILABLE}
+12:02:14.761 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@71beadf6{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:14.761 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:14.794 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.795 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:14.795 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49964(0 millis).
+12:02:14.797 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [42e5a02c] HTTP null "/"
+12:02:14.798 [reactor-http-nio-2] DEBUG org.springframework.core.codec.CharSequenceEncoder - [42e5a02c] Writing 'BAR'
+12:02:14.798 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [42e5a02c] Completed 200 OK
+12:02:14.798 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:14.798 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:14.834 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.834 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:14.843 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49966(0 millis).
+12:02:14.847 [http-nio-auto-9-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1aa57b38] HTTP null "/"
+12:02:14.847 [http-nio-auto-9-exec-1] DEBUG org.springframework.core.codec.CharSequenceEncoder - [1aa57b38] Writing 'BAR'
+12:02:14.848 [http-nio-auto-9-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1aa57b38] Completed 200 OK
+12:02:14.848 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:14.905 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:14.940 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.940 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:14.945 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49989(0 millis).
+12:02:14.947 [XNIO-9 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [67731a7a] HTTP null "/"
+12:02:14.947 [XNIO-9 I/O-6] DEBUG org.springframework.core.codec.CharSequenceEncoder - [67731a7a] Writing 'BAR'
+12:02:14.948 [XNIO-9 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [67731a7a] Completed 200 OK
+12:02:14.948 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:14.948 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[八月 26, 2020 12:02:14 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:14 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-9"]
+八月 26, 2020 12:02:14 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-9-49966"]
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-9-49966"]
+八月 26, 2020 12:02:14 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-9-49966"]
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-9-49966"]
+]]></system-err>
+</testsuite>

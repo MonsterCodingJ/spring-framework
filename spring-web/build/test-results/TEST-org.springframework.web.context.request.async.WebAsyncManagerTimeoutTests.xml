@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:53" hostname="PC-20191023THJJ" time="0.01">
+  <properties/>
+  <testcase name="startCallableProcessingTimeoutAndResumeThroughInterceptor" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startCallableProcessingAfterTimeoutException" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughCallback" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startCallableProcessingTimeoutAndResumeThroughCallback" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startCallableProcessingTimeoutAndComplete" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startDeferredResultProcessingAfterTimeoutException" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughInterceptor" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndComplete" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startCallableProcessingTimeoutAndCheckThreadInterrupted" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.006"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeWithDefaultResult" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <system-out><![CDATA[12:01:53.127 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.127 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async request timeout for /test
+12:01:53.127 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async result set, dispatch to /test
+12:01:53.127 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.127 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async request timeout for /test
+12:01:53.127 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async error, dispatch to /test
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async result set, dispatch to /test
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async request timeout for /test
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async result set, dispatch to /test
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.128 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async request timeout for /test
+12:01:53.129 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async error, dispatch to /test
+12:01:53.129 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.129 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async error, dispatch to /test
+12:01:53.130 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.130 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async result set, dispatch to /test
+12:01:53.130 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.130 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async error, dispatch to /test
+12:01:53.135 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.135 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async request timeout for /test
+12:01:53.135 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async error, dispatch to /test
+12:01:53.136 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Started async request
+12:01:53.136 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Async result set, dispatch to /test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

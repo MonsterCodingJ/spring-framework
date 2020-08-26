@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.DispatcherHandlerErrorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:06" hostname="PC-20191023THJJ" time="0.228">
+  <properties/>
+  <testcase name="controllerReturnsMonoError" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.065"/>
+  <testcase name="controllerThrowsException" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.019"/>
+  <testcase name="webExceptionHandler" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.024"/>
+  <testcase name="requestBodyError" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.045"/>
+  <testcase name="responseBodyMessageConversionError" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.023"/>
+  <testcase name="unknownReturnType" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.029"/>
+  <testcase name="noHandler" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.022"/>
+  <system-out><![CDATA[12:02:06.547 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.562 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.573 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [1406e770] Mapped to public org.reactivestreams.Publisher<java.lang.String> org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.errorSignal()
+12:02:06.590 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8]
+12:02:06.591 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [1406e770] 0..1 [java.lang.String]
+12:02:06.607 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.619 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.621 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [654fd9d8] Mapped to public void org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.raiseException()
+12:02:06.626 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.639 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.651 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.666 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.668 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [69de4524] Mapped to public org.reactivestreams.Publisher<java.lang.String> org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.requestBody(org.reactivestreams.Publisher<java.lang.String>)
+12:02:06.675 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [69de4524] No Content-Type, using application/octet-stream
+12:02:06.675 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [69de4524] 0..N [java.lang.String]
+12:02:06.684 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8]
+12:02:06.684 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [69de4524] 0..1 [java.lang.String]
+12:02:06.696 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.710 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.712 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [794a5863] Mapped to public org.reactivestreams.Publisher<java.lang.String> org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.requestBody(org.reactivestreams.Publisher<java.lang.String>)
+12:02:06.712 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [794a5863] No Content-Type, using application/octet-stream
+12:02:06.712 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolver - [794a5863] 0..N [java.lang.String]
+12:02:06.713 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [794a5863] No match for [application/json], supported: [text/plain;charset=UTF-8]
+12:02:06.720 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.738 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:06.740 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [419b4964] Mapped to public org.springframework.web.reactive.DispatcherHandlerErrorTests$Foo org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController.unknownReturnType()
+12:02:06.748 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+12:02:06.762 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

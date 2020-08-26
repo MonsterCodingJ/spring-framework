@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.function.client.WebClientIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.function.client.WebClientIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.client.html">org.springframework.web.reactive.function.client</a> &gt; WebClientIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">52</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.639s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldApplyCustomStatusHandlerParameterizedTypeReference[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyCustomStatusHandlerParameterizedTypeReference[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyCustomStatusHandler[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyCustomStatusHandler[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyErrorHandlingFilter[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.304s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyErrorHandlingFilter[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyExchangeFilter[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldApplyExchangeFilter[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldFailWithRelativeUrls[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldFailWithRelativeUrls[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetErrorSignalOn404[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetErrorSignalOn404[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetErrorSignalOnEmptyErrorResponse[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetErrorSignalOnEmptyErrorResponse[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetErrorSignalWhenRetrievingUnknownStatusCode[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetErrorSignalWhenRetrievingUnknownStatusCode[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetInternalServerErrorSignal[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetInternalServerErrorSignal[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceive404Response[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceive404Response[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveEmptyResponse[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveEmptyResponse[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsFluxPojo[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsFluxPojo[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsFluxString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsFluxString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsPojo[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsPojo[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsResponseEntityList[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsResponseEntityList[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsResponseEntityString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsResponseEntityString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsTypeReferenceString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveJsonAsTypeReferenceString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveNotFoundEntity[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveNotFoundEntity[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceivePlainTextFlux[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceivePlainTextFlux[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceivePlainText[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceivePlainText[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveResponseHeaders[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReceiveResponseHeaders[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSendCookies[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSendCookies[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSendLargeTextFile[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.040s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSendLargeTextFile[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSendPojoAsJson[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSendPojoAsJson[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSupportUnknownStatusCode[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@2d5f3d18]]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSupportUnknownStatusCode[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@70a8c052]]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:02:11.144 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [15b00f9f] HTTP GET http://ieonline.microsoft.com:49660/greeting?name=Spring
+12:02:11.228 [HttpClient@31ed3a4d-136] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [15b00f9f] Response 200 OK
+12:02:11.228 [HttpClient@31ed3a4d-136] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [15b00f9f] Cancel signal (to close connection)
+12:02:11.229 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4d971f1] HTTP GET http://ieonline.microsoft.com:49660/greeting?name=Spring
+12:02:11.232 [HttpClient@31ed3a4d-132] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4d971f1] Response 200 OK
+12:02:11.238 [HttpClient@31ed3a4d-132] DEBUG org.springframework.core.codec.StringDecoder - [4d971f1] Decoded 'Hello Spring!'
+12:02:11.241 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3d4f6440] HTTP GET http://ieonline.microsoft.com:49676/json
+12:02:11.243 [HttpClient@31ed3a4d-130] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3d4f6440] Response 200 OK
+12:02:11.244 [HttpClient@31ed3a4d-130] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [3d4f6440] Decoded [Pojo[foo='foo1', bar='bar1']]
+12:02:11.244 [HttpClient@31ed3a4d-130] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [3d4f6440] Decoded [Pojo[foo='foo2', bar='bar2']]
+12:02:11.246 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [70ab903a] HTTP GET http://ieonline.microsoft.com:49678/greeting?name=Spring
+12:02:11.253 [HttpClient@31ed3a4d-131] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [70ab903a] Response 200 OK
+12:02:11.255 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [263fd0a9] HTTP GET http://ieonline.microsoft.com:49680/greeting?name=Spring
+12:02:11.257 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [263fd0a9] Response 200 OK
+12:02:11.257 [HttpClient@31ed3a4d-134] DEBUG org.springframework.core.codec.StringDecoder - [263fd0a9] Decoded 'Hello Spring!'
+12:02:11.259 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1c332db] HTTP GET http://ieonline.microsoft.com:49682/greeting?name=Spring
+12:02:11.261 [HttpClient@31ed3a4d-133] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1c332db] Response 404 NOT_FOUND
+12:02:11.263 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4812cbc9] HTTP GET http://ieonline.microsoft.com:49684/json
+12:02:11.265 [HttpClient@31ed3a4d-135] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4812cbc9] Response 200 OK
+12:02:11.265 [HttpClient@31ed3a4d-135] DEBUG org.springframework.core.codec.StringDecoder - [4812cbc9] Decoded '{&quot;bar&quot;:&quot;barbar&quot;,&quot;foo&quot;:&quot;foofoo&quot;}'
+12:02:11.268 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [44347db8] HTTP GET http://ieonline.microsoft.com:49686/json
+12:02:11.269 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [44347db8] Response 200 OK
+12:02:11.271 [HttpClient@31ed3a4d-134] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [44347db8] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@3439adc5]
+12:02:11.273 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [77739e66] HTTP GET http://ieonline.microsoft.com:49688/greeting?name=Spring
+12:02:11.283 [HttpClient@31ed3a4d-137] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [77739e66] Response 404 NOT_FOUND
+12:02:11.284 [HttpClient@31ed3a4d-137] DEBUG org.springframework.core.codec.StringDecoder - [77739e66] Decoded 'Not Found'
+12:02:11.286 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4b71d02] HTTP GET http://ieonline.microsoft.com:49690/pojos
+12:02:11.288 [HttpClient@31ed3a4d-135] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4b71d02] Response 200 OK
+12:02:11.288 [HttpClient@31ed3a4d-135] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [4b71d02] Decoded [Pojo[foo='foo1', bar='bar1']]
+12:02:11.288 [HttpClient@31ed3a4d-135] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [4b71d02] Decoded [Pojo[foo='foo2', bar='bar2']]
+12:02:11.291 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7cc0638f] HTTP POST http://ieonline.microsoft.com:49692/pojo/capitalize
+12:02:11.291 [Test worker] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [7cc0638f] Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:02:11.307 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7cc0638f] Response 200 OK
+12:02:11.307 [HttpClient@31ed3a4d-134] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [7cc0638f] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+12:02:11.309 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [50c358a1] HTTP GET http://ieonline.microsoft.com:49694/greeting?name=Spring
+12:02:11.311 [HttpClient@31ed3a4d-137] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [50c358a1] Response 200 OK
+12:02:11.311 [HttpClient@31ed3a4d-137] DEBUG org.springframework.core.codec.StringDecoder - [50c358a1] Decoded 'Hello Spring!'
+12:02:11.313 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [38d0444e] HTTP GET http://ieonline.microsoft.com:49696/unknownPage
+12:02:11.315 [HttpClient@31ed3a4d-135] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [38d0444e] Response 555
+12:02:11.317 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [37a07d7e] HTTP GET http://ieonline.microsoft.com:49698/noContent
+12:02:11.322 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [37a07d7e] Response 200 OK
+12:02:11.324 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7067e02a] HTTP GET /api/v4/groups/1
+12:02:11.325 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7e7ac6cc] HTTP GET http://ieonline.microsoft.com:49701/unknownPage
+12:02:11.327 [HttpClient@31ed3a4d-137] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7e7ac6cc] Response 555
+12:02:11.335 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7c849352] HTTP GET http://ieonline.microsoft.com:49703/pojo
+12:02:11.337 [HttpClient@31ed3a4d-133] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7c849352] Response 200 OK
+12:02:11.337 [HttpClient@31ed3a4d-133] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [7c849352] Decoded [Pojo[foo='foofoo', bar='barbar']]
+12:02:11.339 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [23febfa1] HTTP GET http://ieonline.microsoft.com:49705/greeting?name=Spring
+12:02:11.341 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [23febfa1] Response 404 NOT_FOUND
+12:02:11.344 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4012a054] HTTP GET http://ieonline.microsoft.com:49707/json
+12:02:11.345 [HttpClient@31ed3a4d-135] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4012a054] Response 200 OK
+12:02:11.346 [HttpClient@31ed3a4d-135] DEBUG org.springframework.core.codec.StringDecoder - [4012a054] Decoded '{&quot;bar&quot;:&quot;barbar&quot;,&quot;foo&quot;:&quot;foofoo&quot;}'
+12:02:11.347 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [6e67fb55] HTTP GET http://ieonline.microsoft.com:49709/test
+12:02:11.350 [HttpClient@31ed3a4d-133] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [6e67fb55] Response 200 OK
+12:02:11.350 [HttpClient@31ed3a4d-133] DEBUG org.springframework.core.codec.StringDecoder - [6e67fb55] Decoded 'test'
+12:02:11.352 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [160fa161] HTTP GET http://ieonline.microsoft.com:49711/json
+12:02:11.356 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [160fa161] Response 200 OK
+12:02:11.356 [HttpClient@31ed3a4d-134] DEBUG org.springframework.core.codec.StringDecoder - [160fa161] Decoded '{&quot;bar&quot;:&quot;barbar&quot;,&quot;foo&quot;:&quot;foofoo&quot;}'
+12:02:11.358 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [de40e91] HTTP GET http://ieonline.microsoft.com:49713/greeting?name=Spring
+12:02:11.367 [HttpClient@31ed3a4d-131] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [de40e91] Response 500 INTERNAL_SERVER_ERROR
+12:02:11.369 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4f5634c5] HTTP GET http://ieonline.microsoft.com:49715/greeting
+12:02:11.371 [HttpClient@31ed3a4d-133] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4f5634c5] Response 404 NOT_FOUND
+12:02:11.373 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [65c931ff] HTTP GET http://ieonline.microsoft.com:49717/greeting?name=Spring
+12:02:11.375 [HttpClient@31ed3a4d-134] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [65c931ff] Response 500 INTERNAL_SERVER_ERROR
+12:02:11.376 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5b7c177e] HTTP GET http://ieonline.microsoft.com:49719/greeting?name=Spring
+12:02:11.378 [HttpClient@31ed3a4d-130] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5b7c177e] Response 500 INTERNAL_SERVER_ERROR
+12:02:11.382 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [305aa655] HTTP POST http://ieonline.microsoft.com:49721/
+12:02:11.382 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.391 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.393 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.394 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.395 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.396 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.397 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.398 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.399 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.400 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.401 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.402 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.403 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.404 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.405 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.406 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.407 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.408 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.409 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.410 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.411 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.412 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.413 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.414 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.415 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 4096 bytes
+12:02:11.416 [HttpClient@31ed3a4d-136] DEBUG org.springframework.core.codec.DataBufferEncoder - [305aa655] Writing 1109 bytes
+12:02:11.417 [HttpClient@31ed3a4d-133] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [305aa655] Response 200 OK
+12:02:11.420 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1f993594] HTTP GET http://ieonline.microsoft.com:49723/greeting?name=Spring
+12:02:11.422 [HttpClient@31ed3a4d-131] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [1f993594] Response 200 OK
+12:02:11.423 [HttpClient@31ed3a4d-131] DEBUG org.springframework.core.codec.StringDecoder - [1f993594] Decoded 'Hello Spring!'
+12:02:11.424 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [9e018f4] HTTP GET http://ieonline.microsoft.com:49725/greeting?name=Spring
+12:02:11.427 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [9e018f4] Response 200 OK
+12:02:11.427 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [9e018f4] Cancel signal (to close connection)
+12:02:11.427 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [20595e13] HTTP GET http://ieonline.microsoft.com:49725/greeting?name=Spring
+12:02:11.430 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [20595e13] Response 200 OK
+12:02:11.432 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [20595e13] Decoded 'Hello Spring!'
+12:02:11.433 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [244d9db0] HTTP GET http://ieonline.microsoft.com:49728/json
+12:02:11.436 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [244d9db0] Response 200 OK
+12:02:11.436 [reactor-http-nio-4] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [244d9db0] Decoded [Pojo[foo='foo1', bar='bar1']]
+12:02:11.436 [reactor-http-nio-4] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [244d9db0] Decoded [Pojo[foo='foo2', bar='bar2']]
+12:02:11.437 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [47a06c0c] HTTP GET http://ieonline.microsoft.com:49730/greeting?name=Spring
+12:02:11.440 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [47a06c0c] Response 200 OK
+12:02:11.441 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7c70c40e] HTTP GET http://ieonline.microsoft.com:49732/greeting?name=Spring
+12:02:11.443 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [7c70c40e] Response 200 OK
+12:02:11.444 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [7c70c40e] Decoded 'Hello Spring!'
+12:02:11.445 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5517285d] HTTP GET http://ieonline.microsoft.com:49734/greeting?name=Spring
+12:02:11.453 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5517285d] Response 404 NOT_FOUND
+12:02:11.454 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4f575186] HTTP GET http://ieonline.microsoft.com:49736/json
+12:02:11.459 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4f575186] Response 200 OK
+12:02:11.459 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [4f575186] Decoded '{&quot;bar&quot;:&quot;barbar&quot;,&quot;foo&quot;:&quot;foofoo&quot;}'
+12:02:11.460 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3b3e9886] HTTP GET http://ieonline.microsoft.com:49738/json
+12:02:11.463 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3b3e9886] Response 200 OK
+12:02:11.464 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [3b3e9886] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@7fcb2581]
+12:02:11.465 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [16a973ce] HTTP GET http://ieonline.microsoft.com:49740/greeting?name=Spring
+12:02:11.468 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [16a973ce] Response 404 NOT_FOUND
+12:02:11.468 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [16a973ce] Decoded 'Not Found'
+12:02:11.470 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [364b4b3e] HTTP GET http://ieonline.microsoft.com:49742/pojos
+12:02:11.472 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [364b4b3e] Response 200 OK
+12:02:11.473 [reactor-http-nio-2] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [364b4b3e] Decoded [Pojo[foo='foo1', bar='bar1']]
+12:02:11.473 [reactor-http-nio-2] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [364b4b3e] Decoded [Pojo[foo='foo2', bar='bar2']]
+12:02:11.474 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [36d15489] HTTP POST http://ieonline.microsoft.com:49744/pojo/capitalize
+12:02:11.475 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [36d15489] Encoding [Pojo[foo='foofoo', bar='barbar']]
+12:02:11.477 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [36d15489] Response 200 OK
+12:02:11.477 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [36d15489] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+12:02:11.478 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5369cd75] HTTP GET http://ieonline.microsoft.com:49746/greeting?name=Spring
+12:02:11.481 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5369cd75] Response 200 OK
+12:02:11.481 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [5369cd75] Decoded 'Hello Spring!'
+12:02:11.482 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5f4215ba] HTTP GET http://ieonline.microsoft.com:49748/unknownPage
+12:02:11.484 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [5f4215ba] Response 555
+12:02:11.485 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [46561eca] HTTP GET http://ieonline.microsoft.com:49750/noContent
+12:02:11.490 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [46561eca] Response 200 OK
+12:02:11.493 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [31c73a7d] HTTP GET /api/v4/groups/1
+12:02:11.494 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [575de039] HTTP GET http://ieonline.microsoft.com:49753/unknownPage
+12:02:11.497 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [575de039] Response 555
+12:02:11.498 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [199ed8ec] HTTP GET http://ieonline.microsoft.com:49755/pojo
+12:02:11.500 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [199ed8ec] Response 200 OK
+12:02:11.501 [reactor-http-nio-2] DEBUG org.springframework.http.codec.json.Jackson2JsonDecoder - [199ed8ec] Decoded [Pojo[foo='foofoo', bar='barbar']]
+12:02:11.502 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [58dc162f] HTTP GET http://ieonline.microsoft.com:49757/greeting?name=Spring
+12:02:11.504 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [58dc162f] Response 404 NOT_FOUND
+12:02:11.506 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [360a12a0] HTTP GET http://ieonline.microsoft.com:49759/json
+12:02:11.508 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [360a12a0] Response 200 OK
+12:02:11.516 [reactor-http-nio-4] DEBUG org.springframework.core.codec.StringDecoder - [360a12a0] Decoded '{&quot;bar&quot;:&quot;barbar&quot;,&quot;foo&quot;:&quot;foofoo&quot;}'
+12:02:11.517 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [2db5ea03] HTTP GET http://ieonline.microsoft.com:49761/test
+12:02:11.523 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [2db5ea03] Response 200 OK
+12:02:11.524 [reactor-http-nio-2] DEBUG org.springframework.core.codec.StringDecoder - [2db5ea03] Decoded 'test'
+12:02:11.525 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [75886a5a] HTTP GET http://ieonline.microsoft.com:49763/json
+12:02:11.527 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [75886a5a] Response 200 OK
+12:02:11.527 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [75886a5a] Decoded '{&quot;bar&quot;:&quot;barbar&quot;,&quot;foo&quot;:&quot;foofoo&quot;}'
+12:02:11.528 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [65c25b0b] HTTP GET http://ieonline.microsoft.com:49765/greeting?name=Spring
+12:02:11.531 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [65c25b0b] Response 500 INTERNAL_SERVER_ERROR
+12:02:11.532 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4f6f2030] HTTP GET http://ieonline.microsoft.com:49767/greeting
+12:02:11.534 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4f6f2030] Response 404 NOT_FOUND
+12:02:11.536 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [756aa53b] HTTP GET http://ieonline.microsoft.com:49769/greeting?name=Spring
+12:02:11.538 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [756aa53b] Response 500 INTERNAL_SERVER_ERROR
+12:02:11.539 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [20add4f7] HTTP GET http://ieonline.microsoft.com:49771/greeting?name=Spring
+12:02:11.541 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [20add4f7] Response 500 INTERNAL_SERVER_ERROR
+12:02:11.543 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3f95ad0d] HTTP POST http://ieonline.microsoft.com:49773/
+12:02:11.553 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.554 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.555 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.556 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.557 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.558 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [reactor-http-nio-2] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.559 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.560 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.561 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.562 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.563 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.564 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.565 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.566 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.567 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.568 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.569 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.570 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.571 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.571 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.571 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.571 [Thread-8] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 4096 bytes
+12:02:11.571 [Thread-9] DEBUG org.springframework.core.codec.DataBufferEncoder - [3f95ad0d] Writing 1109 bytes
+12:02:11.572 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [3f95ad0d] Response 200 OK
+12:02:11.574 [Test worker] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4fdfbcbe] HTTP GET http://ieonline.microsoft.com:49775/greeting?name=Spring
+12:02:11.576 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [4fdfbcbe] Response 200 OK
+12:02:11.576 [reactor-http-nio-6] DEBUG org.springframework.core.codec.StringDecoder - [4fdfbcbe] Decoded 'Hello Spring!'
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49660] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49660] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49660] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49660] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49676] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49676] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49676] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49678] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49678] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49678] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49680] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49680] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49680] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49682] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49682] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49682] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49684] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49684] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49684] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49686] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49686] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49686] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49688] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49688] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49688] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49690] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49690] received request: GET /pojos HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49690] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49692] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49692] received request: POST /pojo/capitalize HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49692] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49694] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49694] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49694] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49696] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49696] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49696] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49698] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49698] received request: GET /noContent HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49698] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49700] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49700] done accepting connections: Socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49701] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49701] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49701] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49703] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49703] received request: GET /pojo HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49703] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49705] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49705] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49705] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49707] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49707] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49707] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49709] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49709] received request: GET /test HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49709] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49711] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49711] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49711] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49713] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49713] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49713] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49715] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49715] received request: GET /greeting HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49715] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49717] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49717] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49717] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49719] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49719] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49719] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49721] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49721] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49721] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49723] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49723] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49723] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49725] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49725] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49725] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49725] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49728] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49728] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49728] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49730] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49730] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49730] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49732] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49732] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49732] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49734] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49734] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49734] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49736] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49736] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49736] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49738] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49738] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49738] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49740] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49740] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49740] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49742] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49742] received request: GET /pojos HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49742] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49744] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49744] received request: POST /pojo/capitalize HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49744] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49746] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49746] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49746] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49748] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49748] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49748] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49750] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49750] received request: GET /noContent HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49750] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49752] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49752] done accepting connections: Socket is closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49753] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49753] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49753] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49755] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49755] received request: GET /pojo HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49755] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49757] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49757] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49757] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49759] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49759] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49759] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49761] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49761] received request: GET /test HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49761] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49763] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49763] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49763] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49765] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49765] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49765] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49767] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49767] received request: GET /greeting HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49767] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49769] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49769] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49769] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49771] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49771] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49771] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49773] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49773] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49773] done accepting connections: socket closed
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[49775] starting to accept connections
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[49775] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+八月 26, 2020 12:02:11 下午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[49775] done accepting connections: socket closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

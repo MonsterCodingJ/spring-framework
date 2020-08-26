@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.ErrorsMethodArgumentResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:01:53" hostname="PC-20191023THJJ" time="0.006">
+  <properties/>
+  <testcase name="supports" classname="org.springframework.web.method.annotation.ErrorsMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="bindingResultNotFound" classname="org.springframework.web.method.annotation.ErrorsMethodArgumentResolverTests" time="0.006"/>
+  <testcase name="noBindingResult" classname="org.springframework.web.method.annotation.ErrorsMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="bindingResult" classname="org.springframework.web.method.annotation.ErrorsMethodArgumentResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

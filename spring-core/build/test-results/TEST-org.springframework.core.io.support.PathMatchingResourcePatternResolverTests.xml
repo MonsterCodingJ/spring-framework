@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2020-08-26T03:58:46" hostname="PC-20191023THJJ" time="0.149">
+  <properties/>
+  <testcase name="rootPatternRetrievalInJarFiles" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.145"/>
+  <testcase name="singleResourceInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.001"/>
+  <testcase name="invalidPrefixWithPatternElementInIt" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.0"/>
+  <testcase name="singleResourceOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.0"/>
+  <testcase name="classpathStarWithPatternOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classpathStarWithPatternInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.001"/>
+  <testcase name="classpathWithPatternInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

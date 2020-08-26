@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.server.html">org.springframework.web.reactive.function.server</a> &gt; DispatcherHandlerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.906s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4ddbcf8]]</td>
+<td class="success">0.129s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7377f923]]</td>
+<td class="success">0.118s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3026e96c]]</td>
+<td class="success">0.213s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4446d16f]]</td>
+<td class="success">0.119s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4ddbcf8]]</td>
+<td class="success">0.252s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7377f923]]</td>
+<td class="success">0.125s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3026e96c]]</td>
+<td class="success">0.189s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4446d16f]]</td>
+<td class="success">0.160s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4ddbcf8]]</td>
+<td class="success">0.134s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7377f923]]</td>
+<td class="success">0.128s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3026e96c]]</td>
+<td class="success">0.218s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4446d16f]]</td>
+<td class="success">0.121s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:02:12.428 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:12.484 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:12.515 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:12.575 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:12.575 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:12.576 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4dca8f0{/,null,AVAILABLE}
+12:02:12.576 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:12.576 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:12.576 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:12.576 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:12.578 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@4fa82c18{HTTP/1.1,[http/1.1]}{0.0.0.0:49850}
+12:02:12.579 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @12976ms
+12:02:12.579 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49850(0 millis).
+12:02:12.599 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49850/flux
+12:02:12.601 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:12.608 [qtp891888003-314] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5b98bef] HTTP GET &quot;/flux&quot;
+12:02:12.609 [qtp891888003-314] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [5b98bef] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$902/501961851@4536337b
+12:02:12.611 [qtp891888003-314] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [5b98bef] Encoding [[Person{name='John'}, Person{name='Jane'}]]
+12:02:12.615 [qtp891888003-314] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [5b98bef] Completed 200 OK
+12:02:12.617 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:12.619 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt;]
+12:02:12.632 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:12.632 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4dca8f0{/,null,UNAVAILABLE}
+12:02:12.634 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@4fa82c18{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:12.634 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:12.673 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:12.690 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:12.723 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:12.789 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:12.790 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:12.790 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@386f6efc{/,null,AVAILABLE}
+12:02:12.790 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:12.790 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:12.790 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:12.790 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:12.794 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7cb93968{HTTP/1.1,[http/1.1]}{0.0.0.0:49859}
+12:02:12.794 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @13191ms
+12:02:12.794 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49859(0 millis).
+12:02:12.794 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49859/mono
+12:02:12.795 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:12.796 [qtp1582183244-325] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [11708bc9] HTTP GET &quot;/mono&quot;
+12:02:12.796 [qtp1582183244-325] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [11708bc9] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$901/1936861380@1fb77797
+12:02:12.797 [qtp1582183244-325] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [11708bc9] Encoding [Person{name='John'}]
+12:02:12.797 [qtp1582183244-325] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [11708bc9] Completed 200 OK
+12:02:12.798 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:12.799 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:12.799 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:12.799 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@386f6efc{/,null,UNAVAILABLE}
+12:02:12.800 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7cb93968{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:12.801 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:12.841 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:12.857 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:12.890 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:12.953 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:12.953 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+12:02:12.953 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@14d1f5b0{/,null,AVAILABLE}
+12:02:12.953 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+12:02:12.953 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.12.RC2; built: 2018-08-14T14:46:56.477Z; git: 1f9703cf836af6c70ac0665fbc6790c0a8229a7a; jvm 1.8.0_101-b13
+12:02:12.953 [Test worker] WARN  org.eclipse.jetty.server.Server - THIS IS NOT A STABLE RELEASE! DO NOT USE IN PRODUCTION!
+12:02:12.953 [Test worker] WARN  org.eclipse.jetty.server.Server - Download a stable release from http://download.eclipse.org/jetty/
+12:02:12.956 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@37150f03{HTTP/1.1,[http/1.1]}{0.0.0.0:49867}
+12:02:12.956 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @13354ms
+12:02:12.956 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49867(0 millis).
+12:02:12.956 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49867/controller
+12:02:12.956 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:12.958 [qtp800519022-335] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [10bd60f1] HTTP GET &quot;/controller&quot;
+12:02:12.958 [qtp800519022-335] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [10bd60f1] Mapped to public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+12:02:12.959 [qtp800519022-335] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'application/json;charset=UTF-8' given [application/json, application/x-jackson-smile, application/*+json] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8, application/x-jackson-smile;charset=UTF-8, application/*+x-jackson-smile;charset=UTF-8, text/event-stream]
+12:02:12.959 [qtp800519022-335] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [10bd60f1] 0..1 [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:12.959 [qtp800519022-335] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [10bd60f1] Encoding [Person{name='John'}]
+12:02:12.960 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:12.960 [qtp800519022-335] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [10bd60f1] Completed 200 OK
+12:02:12.960 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:12.960 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+12:02:12.960 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@14d1f5b0{/,null,UNAVAILABLE}
+12:02:12.962 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@37150f03{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+12:02:12.962 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+12:02:13.001 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:13.017 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:13.049 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:13.114 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:13.114 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:13.115 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49875(0 millis).
+12:02:13.115 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49875/flux
+12:02:13.116 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:13.117 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [60daa17c] HTTP GET &quot;/flux&quot;
+12:02:13.117 [reactor-http-nio-2] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [60daa17c] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$902/501961851@1683c77d
+12:02:13.118 [reactor-http-nio-2] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [60daa17c] Encoding [[Person{name='John'}, Person{name='Jane'}]]
+12:02:13.118 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:13.118 [reactor-http-nio-2] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [60daa17c] Completed 200 OK
+12:02:13.118 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt;]
+12:02:13.119 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:13.119 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:13.163 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:13.180 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:13.215 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:13.279 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:13.279 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:13.280 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49877(0 millis).
+12:02:13.280 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49877/mono
+12:02:13.280 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:13.281 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [be4e3a14] HTTP GET &quot;/mono&quot;
+12:02:13.282 [reactor-http-nio-4] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [be4e3a14] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$901/1936861380@5f377928
+12:02:13.282 [reactor-http-nio-4] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [be4e3a14] Encoding [Person{name='John'}]
+12:02:13.282 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:13.283 [reactor-http-nio-4] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [be4e3a14] Completed 200 OK
+12:02:13.283 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:13.283 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:13.283 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:13.320 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:13.334 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:13.367 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:13.428 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:13.428 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+12:02:13.428 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49879(0 millis).
+12:02:13.428 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49879/controller
+12:02:13.429 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:13.430 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [622be639] HTTP GET &quot;/controller&quot;
+12:02:13.431 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [622be639] Mapped to public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+12:02:13.431 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'application/json;charset=UTF-8' given [application/json, application/x-jackson-smile, application/*+json] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8, application/x-jackson-smile;charset=UTF-8, application/*+x-jackson-smile;charset=UTF-8, text/event-stream]
+12:02:13.432 [reactor-http-nio-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [622be639] 0..1 [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:13.432 [reactor-http-nio-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [622be639] Encoding [Person{name='John'}]
+12:02:13.432 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:13.432 [reactor-http-nio-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [622be639] Completed 200 OK
+12:02:13.432 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:13.432 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+12:02:13.432 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+12:02:13.470 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:13.486 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:13.519 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:13.580 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:13.581 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:13.589 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49881(0 millis).
+12:02:13.589 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49881/flux
+12:02:13.590 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:13.592 [http-nio-auto-6-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1d4d4892] HTTP GET &quot;/flux&quot;
+12:02:13.592 [http-nio-auto-6-exec-1] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [1d4d4892] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$902/501961851@1972dfe3
+12:02:13.592 [http-nio-auto-6-exec-1] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [1d4d4892] Encoding [[Person{name='John'}, Person{name='Jane'}]]
+12:02:13.596 [http-nio-auto-6-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [1d4d4892] Completed 200 OK
+12:02:13.596 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:13.596 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt;]
+12:02:13.597 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:13.652 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:13.723 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:13.741 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:13.773 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:13.833 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:13.834 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:13.842 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49890(0 millis).
+12:02:13.843 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49890/mono
+12:02:13.843 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:13.845 [http-nio-auto-7-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [630c7f1c] HTTP GET &quot;/mono&quot;
+12:02:13.845 [http-nio-auto-7-exec-1] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [630c7f1c] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$901/1936861380@6733e7a5
+12:02:13.846 [http-nio-auto-7-exec-1] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [630c7f1c] Encoding [Person{name='John'}]
+12:02:13.846 [http-nio-auto-7-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [630c7f1c] Completed 200 OK
+12:02:13.846 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:13.846 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:13.847 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:13.901 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:13.965 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:13.983 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:14.014 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:14.072 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.073 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+12:02:14.082 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49899(0 millis).
+12:02:14.082 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49899/controller
+12:02:14.082 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:14.085 [http-nio-auto-8-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [38b8b667] HTTP GET &quot;/controller&quot;
+12:02:14.085 [http-nio-auto-8-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [38b8b667] Mapped to public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+12:02:14.086 [http-nio-auto-8-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'application/json;charset=UTF-8' given [application/json, application/x-jackson-smile, application/*+json] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8, application/x-jackson-smile;charset=UTF-8, application/*+x-jackson-smile;charset=UTF-8, text/event-stream]
+12:02:14.086 [http-nio-auto-8-exec-1] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [38b8b667] 0..1 [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:14.086 [http-nio-auto-8-exec-1] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [38b8b667] Encoding [Person{name='John'}]
+12:02:14.086 [http-nio-auto-8-exec-1] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [38b8b667] Completed 200 OK
+12:02:14.086 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:14.087 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:14.087 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+12:02:14.141 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+12:02:14.210 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:14.229 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:14.261 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:14.323 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.323 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:14.327 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49922(0 millis).
+12:02:14.327 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49922/flux
+12:02:14.328 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:14.328 [XNIO-6 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [789b2f3d] HTTP GET &quot;/flux&quot;
+12:02:14.329 [XNIO-6 I/O-6] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [789b2f3d] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$902/501961851@7ca4a4f6
+12:02:14.329 [XNIO-6 I/O-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [789b2f3d] Encoding [[Person{name='John'}, Person{name='Jane'}]]
+12:02:14.330 [XNIO-6 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [789b2f3d] Completed 200 OK
+12:02:14.330 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:14.330 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt;]
+12:02:14.330 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:14.332 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+12:02:14.367 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:14.383 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:14.415 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:14.473 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.473 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:14.477 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49938(0 millis).
+12:02:14.478 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49938/mono
+12:02:14.478 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:14.479 [XNIO-7 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [58a7c22c] HTTP GET &quot;/mono&quot;
+12:02:14.479 [XNIO-7 I/O-6] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [58a7c22c] Mapped to org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$901/1936861380@5c985de0
+12:02:14.480 [XNIO-7 I/O-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [58a7c22c] Encoding [Person{name='John'}]
+12:02:14.480 [XNIO-7 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [58a7c22c] Completed 200 OK
+12:02:14.480 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:14.480 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:14.480 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:14.481 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+12:02:14.517 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+12:02:14.531 [Test worker] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - 2 RouterFunction(s) in 'routerFunctionMapping'
+12:02:14.561 [Test worker] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: none
+12:02:14.622 [Test worker] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:02:14.622 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+12:02:14.626 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49954(0 millis).
+12:02:14.626 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:49954/controller
+12:02:14.627 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/x-jackson-smile, application/*+json]
+12:02:14.628 [XNIO-8 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [763f536a] HTTP GET &quot;/controller&quot;
+12:02:14.628 [XNIO-8 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - [763f536a] Mapped to public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+12:02:14.629 [XNIO-8 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - Using 'application/json;charset=UTF-8' given [application/json, application/x-jackson-smile, application/*+json] and supported [application/json;charset=UTF-8, application/*+json;charset=UTF-8, application/x-jackson-smile;charset=UTF-8, application/*+x-jackson-smile;charset=UTF-8, text/event-stream]
+12:02:14.629 [XNIO-8 I/O-6] DEBUG org.springframework.web.reactive.result.method.annotation.ResponseBodyResultHandler - [763f536a] 0..1 [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:14.629 [XNIO-8 I/O-6] DEBUG org.springframework.http.codec.json.Jackson2JsonEncoder - [763f536a] Encoding [Person{name='John'}]
+12:02:14.630 [XNIO-8 I/O-6] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [763f536a] Completed 200 OK
+12:02:14.630 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+12:02:14.630 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person]
+12:02:14.630 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+12:02:14.631 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>八月 26, 2020 12:02:13 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:13 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-6&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-6-49881&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-6-49881&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-6-49881&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-6-49881&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:13 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-7&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-7-49890&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-7-49890&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-7-49890&quot;]
+八月 26, 2020 12:02:13 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-7-49890&quot;]
+八月 26, 2020 12:02:14 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+八月 26, 2020 12:02:14 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/9.0.11
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-8&quot;]
+八月 26, 2020 12:02:14 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-8-49899&quot;]
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-8-49899&quot;]
+八月 26, 2020 12:02:14 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-8-49899&quot;]
+八月 26, 2020 12:02:14 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-8-49899&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 2020-8-26 12:04:18</p>
+</div>
+</div>
+</body>
+</html>

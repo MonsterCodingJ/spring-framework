@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.MethodValidationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:58:19" hostname="PC-20191023THJJ" time="0.043">
+  <properties/>
+  <testcase name="testLazyValidatorForMethodValidation" classname="org.springframework.validation.beanvalidation.MethodValidationTests" time="0.026"/>
+  <testcase name="testMethodValidationInterceptor" classname="org.springframework.validation.beanvalidation.MethodValidationTests" time="0.008"/>
+  <testcase name="testMethodValidationPostProcessor" classname="org.springframework.validation.beanvalidation.MethodValidationTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

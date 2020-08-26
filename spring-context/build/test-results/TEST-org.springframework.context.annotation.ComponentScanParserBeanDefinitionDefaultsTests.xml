@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:57:38" hostname="PC-20191023THJJ" time="2.944">
+  <properties/>
+  <testcase name="testDefaultInitAndDestroyMethodsDefined" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.286"/>
+  <testcase name="testDefaultNonExistingInitAndDestroyMethodsDefined" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.252"/>
+  <testcase name="testDefaultAutowire" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.256"/>
+  <testcase name="testLazyInitFalse" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.367"/>
+  <testcase name="testAutowireNo" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.234"/>
+  <testcase name="testDefaultDependencyCheck" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.216"/>
+  <testcase name="testDefaultLazyInit" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.219"/>
+  <testcase name="testDefaultInitAndDestroyMethodsNotDefined" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.229"/>
+  <testcase name="testAutowireByName" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.241"/>
+  <testcase name="testAutowireByType" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.22"/>
+  <testcase name="testAutowireConstructor" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.214"/>
+  <testcase name="testLazyInitTrue" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.21"/>
+  <system-out><![CDATA[11:57:40.828 [Test worker] WARN  org.springframework.context.support.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'componentScanParserBeanDefinitionDefaultsTests.DefaultsTestBean' defined in file [E:\SourceCode\spring-framework\spring-context\build\classes\java\test\org\springframework\context\annotation\ComponentScanParserBeanDefinitionDefaultsTests$DefaultsTestBean.class]: Unsatisfied dependency expressed through bean property 'propertyDependency1'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests$PropertyDependencyTestBean' available: expected single matching bean but found 2: org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests$PropertyDependencyTestBean#0,propertyDependency2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

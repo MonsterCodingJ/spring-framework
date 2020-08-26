@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.oxm.castor.CastorMarshallerTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:00:06" hostname="PC-20191023THJJ" time="2.319">
+  <properties/>
+  <testcase name="suppressXsiTypeTrue" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="1.048"/>
+  <testcase name="rootElement" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.026"/>
+  <testcase name="supports" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.015"/>
+  <testcase name="suppressNamespacesFalse" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.026"/>
+  <testcase name="useXsiTypeAsRootFalse" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.033"/>
+  <testcase name="suppressNamespacesTrue" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.024"/>
+  <testcase name="marshalAsDocumentFalse" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.023"/>
+  <testcase name="noNamespaceSchemaLocation" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.083"/>
+  <testcase name="suppressXsiTypeFalse" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.028"/>
+  <testcase name="marshalSaxResult" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.624"/>
+  <testcase name="schemaLocation" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.026"/>
+  <testcase name="useXsiTypeAsRootTrue" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.027"/>
+  <testcase name="marshalAsDocumentTrue" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.023"/>
+  <testcase name="marshalStreamResultOutputStream" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.043"/>
+  <testcase name="marshalStaxResultEventWriter" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.071"/>
+  <testcase name="marshalEmptyDOMResult" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.031"/>
+  <testcase name="marshalStreamResultWriter" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.036"/>
+  <testcase name="marshalDOMResult" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.022"/>
+  <testcase name="marshalJaxp14StaxResultEventWriter" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.036"/>
+  <testcase name="marshalStaxResultStreamWriter" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.039"/>
+  <testcase name="marshalJaxp14StaxResultStreamWriter" classname="org.springframework.oxm.castor.CastorMarshallerTests" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

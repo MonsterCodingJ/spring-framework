@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.unit.DataSizeTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2020-08-26T03:58:48" hostname="PC-20191023THJJ" time="0.003">
+  <properties/>
+  <testcase name="parseWithNegativeKiloBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.001"/>
+  <testcase name="parseWithKiloBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.001"/>
+  <testcase name="parseWithBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofTeraBytesToGigaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofGigaBytesToGigaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofMegaBytesToMegaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithPostivieBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseNegativeNumberWithDefaultUnitUsesBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofWithKiloBytesUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofWithGigaBytesUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithDefaultUnitUsesBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="toStringWithNegativeBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="isNegativeWithZero" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithCustomDefaultUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofGigaBytesToTeraBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofMegaBytesToGigaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofBytesToKiloBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithUnsupportedUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.001"/>
+  <testcase name="ofWithBytesUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofKiloBytesToKiloBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithNullDefaultUnitUsesBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithNegativeMegaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithMegaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseNegativeNumberWithNullDefaultUnitUsesBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="toStringUsesBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofWithTeraBytesUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithNegativeGigaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithGigaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofWithMegaBytesUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithNegativeBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithNegativeTeraBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseWithTeraBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="parseNegativeNumberWithCustomDefaultUnit" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="isNegativeWithPositive" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofBytesToBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="ofKiloBytesToMegaBytes" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <testcase name="isNegativeWithNegative" classname="org.springframework.util.unit.DataSizeTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

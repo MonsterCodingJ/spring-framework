@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-08-26T04:02:56" hostname="PC-20191023THJJ" time="0.382">
+  <properties/>
+  <testcase name="bindExistingMonoToMono" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.034"/>
+  <testcase name="supports" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.012"/>
+  <testcase name="bindExistingMono" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.024"/>
+  <testcase name="createAndBindToSingle" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.085"/>
+  <testcase name="createAndBindToMono" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.024"/>
+  <testcase name="validationErrorToSingle" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.028"/>
+  <testcase name="validationError" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.025"/>
+  <testcase name="supportsWithDefaultResolution" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.013"/>
+  <testcase name="bindExistingSingle" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.026"/>
+  <testcase name="validationErrorToMono" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.026"/>
+  <testcase name="bindDataClass" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.034"/>
+  <testcase name="createAndBind" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.026"/>
+  <testcase name="bindExisting" classname="org.springframework.web.reactive.result.method.annotation.ModelAttributeMethodArgumentResolverTests" time="0.025"/>
+  <system-out><![CDATA[12:02:56.904 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [39654ea7] Read form fields [name, age] (content masked)
+12:02:56.945 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [303557e8] Read form fields [name, age] (content masked)
+12:02:56.969 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [58241e45] Read form fields [name, age] (content masked)
+12:02:57.054 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [391160da] Read form fields [name, age] (content masked)
+12:02:57.080 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [316d4e8] Read form fields [age] (content masked)
+12:02:57.107 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [1c0aa779] Read form fields [age] (content masked)
+12:02:57.146 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [4343bb77] Read form fields [name, age] (content masked)
+12:02:57.173 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [24f77a73] Read form fields [age] (content masked)
+12:02:57.198 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [422aa46b] Read form fields [name, age, count] (content masked)
+12:02:57.232 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [525d35b4] Read form fields [name, age] (content masked)
+12:02:57.258 [Test worker] DEBUG org.springframework.http.codec.FormHttpMessageReader - [28c61fad] Read form fields [name, age] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
