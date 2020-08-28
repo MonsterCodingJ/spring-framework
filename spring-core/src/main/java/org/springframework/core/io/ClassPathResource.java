@@ -164,16 +164,24 @@ public class ClassPathResource extends AbstractFileResolvingResource {
 	 * @see java.lang.ClassLoader#getResourceAsStream(String)
 	 * @see java.lang.Class#getResourceAsStream(String)
 	 */
+	/**
+	 * 获取资源文件的输入流
+	 * @author monster
+	 * @Date 2020/8/27 9:28
+	 */
 	@Override
 	public InputStream getInputStream() throws IOException {
 		InputStream is;
 		if (this.clazz != null) {
+			// 当前class 不为空
 			is = this.clazz.getResourceAsStream(this.path);
 		}
 		else if (this.classLoader != null) {
+			// 类加载器不为空
 			is = this.classLoader.getResourceAsStream(this.path);
 		}
 		else {
+			// 静态方法
 			is = ClassLoader.getSystemResourceAsStream(this.path);
 		}
 		if (is == null) {
